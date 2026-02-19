@@ -2,7 +2,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ABOUT, EXPERIENCE, EDUCATION, SKILLS, ACHIEVEMENTS, CERTIFICATIONS, INTERESTS } from "@/lib/data"
-import { Mail, Phone, Globe } from "lucide-react"
+import { Mail, Globe, Github, Linkedin, Instagram } from "lucide-react"
 
 export default function Home() {
   return (
@@ -17,15 +17,23 @@ export default function Home() {
           <h2 className="text-2xl font-semibold text-muted-foreground">{ABOUT.title}</h2>
           <p className="max-w-2xl text-lg text-muted-foreground">{ABOUT.description}</p>
           <div className="flex flex-wrap justify-center gap-4 text-sm text-muted-foreground md:justify-start">
-            <a href={`tel:${ABOUT.contact.phone}`} className="flex items-center gap-2 hover:text-foreground transition-colors">
-              <Phone className="h-4 w-4" />
-              {ABOUT.contact.phone}
-            </a>
             <a href={`mailto:${ABOUT.contact.email}`} className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Mail className="h-4 w-4" />
-              {ABOUT.contact.email}
+              Email
             </a>
-             <a href={ABOUT.contact.portfolio} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <a href={ABOUT.contact.linkedin} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+              <Linkedin className="h-4 w-4" />
+              LinkedIn
+            </a>
+            <a href={ABOUT.contact.github} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+              <Github className="h-4 w-4" />
+              GitHub
+            </a>
+            <a href={ABOUT.contact.instagram} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
+            <Instagram className="h-4 w-4" />
+              Instagram
+            </a>
+            <a href={ABOUT.contact.portfolio} target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 hover:text-foreground transition-colors">
               <Globe className="h-4 w-4" />
               Portfolio
             </a>

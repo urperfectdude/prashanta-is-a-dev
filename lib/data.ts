@@ -1,14 +1,14 @@
 export const ABOUT = {
-  name: "Prashant Nayak",
+  name: "Prashanta Nayak",
   initials: "PN",
   title: "Product Builder",
   description: "Product-driven professional with 2+ years of cross-functional experience in product design, no-code development, and early-stage product building. Adept at driving product lifecycle from ideation to launch with strong skills in user research, stakeholder collaboration, MVP design, and growth experimentation.",
   avatar: "/avatar-placeholder.svg", // Add placeholder
   contact: {
-    phone: "+91 7506328193",
     email: "prashantnayak9999@gmail.com",
-    linkedin: "#", // Add if available
-    github: "#", // Add if available
+    linkedin: "https://www.linkedin.com/in/prashant-nayak-Product",
+    github: "https://github.com/Prashant-Nayak",
+    instagram: "https://www.instagram.com/prashanta.nayak",
     portfolio: "https://www.no-code-prashant.framer.website",
   },
 }
@@ -18,7 +18,7 @@ export const EXPERIENCE = [
     company: "Enviu",
     role: "Product Builder",
     period: "Oct'25 - Present",
-    description: "Leading Mobile App and Web App development on Bubble.io with 1000+ users in the first month of going live.",
+    description: "Lead Mobile App and Web App development on Bubble.io with 1000+ users in the first month of going live. Now Leading the Multi Platform and Multi Vendor Full Stack Platform for all ecommerce operations using FLutter, Supabase, Cloudflare, Mixpanel, Crashlytics",
   },
   {
     company: "Driveo Electric Private Limited",
@@ -38,7 +38,7 @@ export const EDUCATION = [
   {
     institution: "IIT Madras",
     degree: "BS in Data Science",
-    year: "2027",
+    year: "2023 - 2023 (Dropped Out)",
     score: "6.5 CGPA",
   },
   {

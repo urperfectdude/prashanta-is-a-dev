@@ -21,7 +21,7 @@ export function Nav() {
       <div className="container flex h-14 items-center">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <span className="hidden font-bold sm:inline-block">Prashant Nayak</span>
+            <span className="hidden font-bold sm:inline-block">Prashanta Nayak</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
             {links.map((link) => (
@@ -47,7 +47,7 @@ export function Nav() {
           </SheetTrigger>
           <SheetContent side="left" className="pr-0">
             <Link href="/" className="flex items-center">
-              <span className="font-bold">Prashant Nayak</span>
+              <span className="font-bold">Prashanta Nayak</span>
             </Link>
             <div className="my-4 pb-10 pl-6">
               <div className="flex flex-col space-y-3">
