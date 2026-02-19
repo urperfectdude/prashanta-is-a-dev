@@ -1,0 +1,55 @@
+import { getAllProjects, getProjectData } from '@/lib/projects'
+import { notFound } from 'next/navigation'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
+import Markdown from 'react-markdown'
+import rehypeRaw from 'rehype-raw'
+
+// Generate static params for static export
+export function generateStaticParams() {
+  const projects = getAllProjects()
+  return projects.map((project) => ({
+    slug: project.slug,
+  }))
+}
+
+export default async function ProjectPage(props: { params: Promise<{ slug: string }> }) {
+  const params = await props.params
+  const project = getProjectData(params.slug)
+
+  if (!project) {
+    notFound()
+  }
+
+  return (
+    <main className="space-y-8 animate-in fade-in duration-500">
+      <div className="space-y-4">
+        <Link href="/" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4">
+          <ArrowLeft className="mr-2 h-4 w-4" />
+          Back to Home
+        </Link>
+        <h1 className="text-3xl font-bold font-serif">{project.title}</h1>
+        <div className="flex flex-wrap gap-2">
+          {project.tags.map((tag) => (
+            <Badge key={tag} variant="secondary" className="font-normal text-muted-foreground bg-muted/50 hover:bg-muted">
+              {tag}
+            </Badge>
+          ))}
+        </div>
+      </div>
+
+      <div className="aspect-video w-full rounded-lg bg-muted/20 border border-border flex items-center justify-center relative overflow-hidden group">
+         {/* Placeholder for actual image */}
+         <div className="absolute inset-0 bg-gradient-to-br from-muted/30 to-muted/10" />
+         <span className="z-10 text-muted-foreground font-medium">Cover Image: {project.title}</span>
+      </div>
+
+      <article className="prose prose-invert max-w-none">
+         <p className="lead text-xl text-muted-foreground mb-8">{project.description}</p>
+         <Markdown rehypePlugins={[rehypeRaw]}>{project.content}</Markdown>
+      </article>
+    </main>
+  )
+}

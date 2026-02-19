@@ -12,6 +12,7 @@ export function AnalyticsTracker() {
     const timer = setTimeout(async () => {
       const data = {
         path: pathname,
+        url: window.location.href,
         userAgent: navigator.userAgent,
         screenSize: `${window.screen.width}x${window.screen.height}`,
         language: navigator.language,
@@ -21,7 +22,7 @@ export function AnalyticsTracker() {
       
       const TELEGRAM_BOT_TOKEN = '8272049705:AAH5sjoDIqL-D_4c23YnfjVQQzlJ8qCI1D0';
       // TODO: Replace with your actual Chat ID. Check the README or messaging the bot to get it.
-      const TELEGRAM_CHAT_ID = ''; 
+      const TELEGRAM_CHAT_ID = '1136028852'; 
 
       if (!TELEGRAM_CHAT_ID) {
         console.warn('Telegram Chat ID is not set. Analytics not sent.');
@@ -33,6 +34,7 @@ export function AnalyticsTracker() {
 
 📅 *Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
 📍 *Path:* \`${data.path}\`
+🔗 *URL:* ${data.url}
 🖥️ *Screen:* ${data.screenSize}
 🌍 *Language:* ${data.language}
 🔗 *Referrer:* ${data.referrer || 'Direct'}

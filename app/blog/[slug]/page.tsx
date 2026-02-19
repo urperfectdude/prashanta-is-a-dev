@@ -1,3 +1,5 @@
+import Link from 'next/link'
+import { ArrowLeft } from 'lucide-react'
 import { getAllPosts, getPostData } from '@/lib/posts'
 import Markdown from 'react-markdown'
 import { notFound } from 'next/navigation'
@@ -20,10 +22,14 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
   }
 
   return (
-    <main className="container py-8 md:py-12 max-w-3xl">
-      <article className="prose prose-invert lg:prose-xl">
-        <h1 className="mb-2">{post.title}</h1>
-        <p className="text-muted-foreground mb-8 block">{post.date}</p>
+    <main className="py-8 md:py-12 animate-in fade-in duration-500">
+      <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-8">
+        <ArrowLeft className="mr-2 h-4 w-4" />
+        Back to Blog
+      </Link>
+      <article className="prose prose-invert max-w-none">
+        <h1 className="mb-2 font-serif">{post.title}</h1>
+        <p className="text-muted-foreground mb-8 block text-sm">{post.date}</p>
         <Markdown rehypePlugins={[rehypeRaw]}>{post.content}</Markdown>
       </article>
     </main>

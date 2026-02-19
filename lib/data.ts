@@ -3,51 +3,17 @@ export const ABOUT = {
   initials: "PN",
   title: "Product Builder",
   description: "Product-driven professional with 2+ years of cross-functional experience in product design, no-code development, and early-stage product building. Adept at driving product lifecycle from ideation to launch with strong skills in user research, stakeholder collaboration, MVP design, and growth experimentation.",
-  avatar: "/avatar-placeholder.svg", // Add placeholder
+  avatar: "/badal-ps.jpg", // Updated avatar path
   contact: {
     email: "prashantnayak9999@gmail.com",
-    linkedin: "https://www.linkedin.com/in/prashant-nayak-Product",
-    github: "https://github.com/Prashant-Nayak",
-    instagram: "https://www.instagram.com/prashanta.nayak",
+    linkedin: "https://www.linkedin.com/in/urperfectdude",
+    github: "https://github.com/urperfectdude",
+    instagram: "https://www.instagram.com/urperfectdude",
     portfolio: "https://www.no-code-prashant.framer.website",
   },
 }
 
-export const EXPERIENCE = [
-  {
-    company: "Enviu",
-    role: "Product Builder",
-    period: "Oct'25 - Present",
-    description: "Lead Mobile App and Web App development on Bubble.io with 1000+ users in the first month of going live. Now Leading the Multi Platform and Multi Vendor Full Stack Platform for all ecommerce operations using FLutter, Supabase, Cloudflare, Mixpanel, Crashlytics",
-  },
-  {
-    company: "Driveo Electric Private Limited",
-    role: "Software Developer",
-    period: "Sep'24 - Oct'25", // 13 Months
-    description: "Led development of AI-powered SQL interface, real-time LLM assistant, modular chatbot platform, and internal learning platform. Optimized search algorithms and re-architected core data pipelines for 3x traffic growth. Developed EV monitoring dashboard and ML-driven alerting system.",
-  },
-  {
-    company: "YourERPCoach.Com",
-    role: "Lead Designer",
-    period: "May'23 - Sep'24", // 16 Months
-    description: "Designed and launched AI Chrome Extension reducing documentation time by 70%. Designed B2B SaaS product 'Sherpa' improving learning absorption by 45%. Designed ERP community mobile app and virtual campus. Led multiple growth initiatives driving 25% revenue growth.",
-  },
-]
 
-export const EDUCATION = [
-  {
-    institution: "IIT Madras",
-    degree: "BS in Data Science",
-    year: "2023 - 2023 (Dropped Out)",
-    score: "6.5 CGPA",
-  },
-  {
-    institution: "GP Bramhapuri",
-    degree: "Diploma - Electrical Engineering",
-    year: "2023",
-    score: "82%",
-  },
-]
 
 export const SKILLS = {
   technical: [
