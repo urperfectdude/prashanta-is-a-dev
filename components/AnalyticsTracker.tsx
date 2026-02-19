@@ -10,6 +10,14 @@ export function AnalyticsTracker() {
   useEffect(() => {
     // Small delay to ensure client-side data is ready and avoid hydration mismatches
     const timer = setTimeout(async () => {
+      let ipData: any = {};
+      try {
+        const response = await fetch('https://ipapi.co/json/');
+        ipData = await response.json();
+      } catch (error) {
+        console.error('Failed to fetch IP data:', error);
+      }
+
       const data = {
         path: pathname,
         url: window.location.href,
@@ -18,6 +26,11 @@ export function AnalyticsTracker() {
         language: navigator.language,
         referrer: document.referrer,
         timezone: Intl.DateTimeFormat().resolvedOptions().timeZone,
+        ip: ipData.ip,
+        city: ipData.city,
+        region: ipData.region,
+        country: ipData.country_name,
+        isp: ipData.isp || ipData.org,
       };
       
       const TELEGRAM_BOT_TOKEN = '8272049705:AAH5sjoDIqL-D_4c23YnfjVQQzlJ8qCI1D0';
@@ -39,6 +52,9 @@ export function AnalyticsTracker() {
 🌍 *Language:* ${data.language}
 🔗 *Referrer:* ${data.referrer || 'Direct'}
 🕒 *Visitor Timezone:* ${data.timezone}
+🌐 *IP:* \`${data.ip || 'Unknown'}\`
+📍 *Location:* ${data.city || 'Unknown'}, ${data.region || ''}, ${data.country || ''}
+🏢 *ISP:* ${data.isp || 'Unknown'}
 🤖 *User Agent:* \`${data.userAgent}\`
       `.trim();
 
