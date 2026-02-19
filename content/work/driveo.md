@@ -3,6 +3,7 @@ company: "Driveo Electric Private Limited"
 role: "Software Developer"
 period: "Sep'24 - Oct'25"
 logo: "/logos/driveo.png"
+url: "https://driveo.in"
 description: "Led AI-powered SQL interface and EV monitoring dashboard development."
 ---
 

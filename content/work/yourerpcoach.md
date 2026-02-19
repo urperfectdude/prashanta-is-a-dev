@@ -3,6 +3,7 @@ company: "YourERPCoach.Com"
 role: "Lead Designer"
 period: "May'23 - Sep'24"
 logo: "/logos/yourerpcoach.png"
+url: "https://www.yourerpcoach.com"
 description: "Designed AI tools and B2B SaaS products driving user growth."
 ---
 
