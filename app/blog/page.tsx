@@ -14,7 +14,7 @@ export default function BlogIndex() {
 
         return (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="group block">
-            <div className={`flex gap-6 md:gap-10 items-start transition-colors hover:bg-muted/50 active:bg-muted/50 py-4 px-4 -mx-4 rounded-none border-border ${!isLast ? 'border-b' : ''}`}>
+            <div className={`flex gap-6 md:gap-10 items-start transition-colors hover:bg-muted/50 active:bg-muted/50 py-4 px-4 -mx-4 rounded-none border-white/5 ${!isLast ? 'border-b' : ''}`}>
               <div className="flex flex-col items-end shrink-0 w-[4.5rem] pt-1">
                 <span className="text-2xl font-serif font-medium leading-none">{day}</span>
                 <span className="text-xs text-muted-foreground text-right mt-1">{monthYear}</span>

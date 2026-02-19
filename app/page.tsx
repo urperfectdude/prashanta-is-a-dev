@@ -29,10 +29,12 @@ export default function Home() {
       {/* Work Experience - List */}
       <section className="space-y-6">
         <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Work Experience</h3>
-        <div className="flex flex-col gap-4">
-            {workExperience.map((job) => (
+        <div className="flex flex-col gap-0">
+            {workExperience.map((job, index) => {
+                const isLast = index === workExperience.length - 1
+                return (
                 <Link key={job.slug} href={`/work/${job.slug}`} className="group block">
-                    <div className="flex flex-col gap-2 transition-colors hover:bg-muted/50 py-3 rounded-none px-2 -mx-2">
+                    <div className={`flex flex-col gap-2 transition-colors hover:bg-muted/50 active:bg-muted/50 py-3 rounded-none px-2 -mx-2 border-white/5 ${!isLast ? 'border-b' : ''}`}>
                         <div className="flex items-start justify-between gap-4">
                             <div className="flex flex-col min-w-0 gap-0.5">
                                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate">
@@ -56,7 +58,8 @@ export default function Home() {
                         </div>
                     </div>
                 </Link>
-            ))}
+                )
+            })}
         </div>
       </section>
 
@@ -113,10 +116,12 @@ export default function Home() {
       <section className="space-y-12">
         <div className="space-y-6">
            <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Education</h3>
-            <div className="flex flex-col gap-4">
-                {education.map((edu) => (
+            <div className="flex flex-col gap-0">
+                {education.map((edu, index) => {
+                    const isLast = index === education.length - 1
+                    return (
                     <Link key={edu.slug} href={`/education/${edu.slug}`} className="group block">
-                        <div className="flex flex-col gap-2 transition-colors hover:bg-muted/50 py-3 rounded-none px-2 -mx-2">
+                        <div className={`flex flex-col gap-2 transition-colors hover:bg-muted/50 active:bg-muted/50 py-3 rounded-none px-2 -mx-2 border-white/5 ${!isLast ? 'border-b' : ''}`}>
                             <div className="flex items-start justify-between gap-4">
                                 <div className="flex flex-col min-w-0 gap-0.5">
                                     <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate">
@@ -139,7 +144,8 @@ export default function Home() {
                             </div>
                         </div>
                     </Link>
-                ))}
+                    )
+                })}
             </div>
         </div>
 
