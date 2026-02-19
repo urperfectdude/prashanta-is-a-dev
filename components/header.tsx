@@ -22,10 +22,7 @@ export function Header() {
               Let's go slightly larger to be noticeable: h-14 (3.5rem = 56px). 
           */}
           <Avatar className="h-14 w-14 border border-border">
-             <AvatarImage 
-               src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}${ABOUT.avatar}`} 
-               alt={ABOUT.name} 
-             />
+             <AvatarImage src={ABOUT.avatar} alt={ABOUT.name} />
              <AvatarFallback>{ABOUT.initials}</AvatarFallback>
           </Avatar>
           <div className="flex flex-col">

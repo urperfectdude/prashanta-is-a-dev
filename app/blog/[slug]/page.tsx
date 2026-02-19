@@ -22,14 +22,14 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
   }
 
   return (
-    <main className="py-8 md:py-12 animate-in fade-in duration-500">
-      <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-8">
+    <main className="py-6 md:py-8 animate-in fade-in duration-500">
+      <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Blog
       </Link>
       <article className="prose prose-invert max-w-none">
         <h1 className="mb-2 font-serif">{post.title}</h1>
-        <p className="text-muted-foreground mb-8 block text-sm">{post.date}</p>
+        <p className="text-muted-foreground mb-6 block text-sm">{post.date}</p>
         <Markdown rehypePlugins={[rehypeRaw]}>{post.content}</Markdown>
       </article>
     </main>

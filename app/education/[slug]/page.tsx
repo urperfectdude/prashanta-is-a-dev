@@ -22,9 +22,9 @@ export default async function EducationPage(props: { params: Promise<{ slug: str
   }
 
   return (
-    <main className="space-y-8 animate-in fade-in duration-500">
-      <div className="space-y-4">
-        <Link href="/" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4">
+    <main className="space-y-6 animate-in fade-in duration-500">
+      <div className="space-y-3">
+        <Link href="/" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-2">
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Home
         </Link>

@@ -3,7 +3,7 @@ export const ABOUT = {
   initials: "PN",
   title: "Product Builder",
   description: "Product-driven professional with 2+ years of cross-functional experience in product design, no-code development, and early-stage product building. Adept at driving product lifecycle from ideation to launch with strong skills in user research, stakeholder collaboration, MVP design, and growth experimentation.",
-  avatar: "/badal-ps.jpg", // Updated avatar path
+  avatar: "https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg", // Updated avatar path
   contact: {
     email: "prashantnayak9999@gmail.com",
     linkedin: "https://www.linkedin.com/in/urperfectdude",
