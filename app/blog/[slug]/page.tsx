@@ -22,7 +22,7 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
   }
 
   return (
-    <main className="py-6 md:py-8 animate-in fade-in duration-500">
+    <main className="pt-0 pb-6 md:pt-0 md:pb-8 animate-in fade-in duration-500">
       <Link href="/blog" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-4">
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Blog

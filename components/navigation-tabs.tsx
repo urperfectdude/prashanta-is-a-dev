@@ -14,7 +14,7 @@ export function NavigationTabs() {
 
   return (
     // Removed border-b. Reduced margin/padding.
-    <div className="flex items-center gap-6 pb-2 mb-4 mt-2">
+    <div className="flex items-center gap-6 pb-2 mb-2 mt-2">
       {tabs.map((tab) => {
         const isActive = pathname === tab.href || (tab.href !== '/' && pathname?.startsWith(tab.href))
         return (
