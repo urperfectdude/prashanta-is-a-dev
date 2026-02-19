@@ -24,13 +24,13 @@ Indian Institute of Technology, Madras.
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e078954c-354c-4a3a-ada5-bdcdb7682010" width="30%">
-  <img src="https://github.com/user-attachments/assets/abcda06e-74d0-4efa-aa46-cfa8b8a5f7f9" width="30%">
+  <img src="https://github.com/user-attachments/assets/66485f00-e187-4a60-8a7e-f9395681a271" width="30%">
   <img src="https://github.com/user-attachments/assets/7d3020d2-84a7-4093-bde3-215c9366d4bd" width="30%">
 </p>
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/c6c66e85-f161-4348-93c7-29d7fb0d2675" width="30%">
-  <img src="https://github.com/user-attachments/assets/66485f00-e187-4a60-8a7e-f9395681a271" width="30%">
+  <img src="https://github.com/user-attachments/assets/abcda06e-74d0-4efa-aa46-cfa8b8a5f7f9" width="30%">
   <img src="https://github.com/user-attachments/assets/56c1e115-2da8-4d6b-bcab-e2b19f948287" width="30%">
 </p>
 
