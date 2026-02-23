@@ -67,7 +67,7 @@ export default function Home() {
       <section className="space-y-6">
         <div className="flex items-baseline justify-between border-b pb-2">
             <h3 className="text-xl font-bold tracking-tight font-serif">Projects</h3>
-            <span className="text-sm text-muted-foreground/50 font-normal">{projects.length} projects</span>
+            <Link href="/projects" className="text-sm text-muted-foreground/50 font-normal hover:text-foreground transition-colors">View all</Link>
         </div>
         <Carousel className="w-full" opts={{ loop: true }}>
           <CarouselContent>

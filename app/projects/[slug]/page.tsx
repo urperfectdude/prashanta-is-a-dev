@@ -26,9 +26,9 @@ export default async function ProjectPage(props: { params: Promise<{ slug: strin
   return (
     <main className="space-y-6 animate-in fade-in duration-500">
       <div className="space-y-3">
-        <Link href="/" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-2">
+        <Link href="/projects" className="inline-flex items-center text-sm text-muted-foreground hover:text-foreground mb-2">
           <ArrowLeft className="mr-2 h-4 w-4" />
-          Back to Home
+          Back to Projects
         </Link>
         <h1 className="text-3xl font-bold font-serif">{project.title}</h1>
         <div className="flex flex-wrap gap-2">
