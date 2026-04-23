@@ -24,11 +24,18 @@ export default function Home() {
         <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
           {ABOUT.description}
         </p>
+        <p className="text-muted-foreground leading-snug max-w-2xl">
+          If you want to know more about me, here are{" "}
+          <Link href="/blog/somethings-i-believe-in" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
+            somethings I believe in
+          </Link>
+          .
+        </p>
       </section>
 
       {/* Work Experience - List */}
-      <section className="space-y-6">
-        <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Work Experience</h3>
+      <section className="space-y-6 -mt-8">
+        <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Work Experience</h3>
         <div className="flex flex-col gap-0">
             {workExperience.map((job, index) => {
                 const isLast = index === workExperience.length - 1
@@ -66,7 +73,7 @@ export default function Home() {
       {/* Projects - Carousel */}
       <section className="space-y-6">
         <div className="flex items-baseline justify-between border-b pb-2">
-            <h3 className="text-xl font-bold tracking-tight font-serif">Projects</h3>
+            <h3 className="text-xl font-semibold tracking-tight">Projects</h3>
             <Link href="/projects" className="text-sm text-muted-foreground/50 font-normal hover:text-foreground transition-colors">View all</Link>
         </div>
         <Carousel className="w-full" opts={{ loop: true }}>
@@ -115,7 +122,7 @@ export default function Home() {
       {/* History (Education & Achievements) */}
       <section className="space-y-12">
         <div className="space-y-6">
-           <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Education</h3>
+           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Education</h3>
             <div className="flex flex-col gap-0">
                 {education.map((edu, index) => {
                     const isLast = index === education.length - 1
@@ -150,7 +157,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-6">
-           <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Achievements</h3>
+           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Achievements</h3>
            <ul className="space-y-3">
              {ACHIEVEMENTS.map((achievement, index) => (
                <li key={index} className="flex items-start text-muted-foreground">
@@ -162,7 +169,7 @@ export default function Home() {
         </div>
         
         <div className="space-y-6">
-           <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Certifications</h3>
+           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Certifications</h3>
            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
              {CERTIFICATIONS.map((cert, index) => (
                <li key={index}>{cert}</li>
@@ -171,7 +178,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-6">
-           <h3 className="text-xl font-bold tracking-tight border-b pb-2 font-serif">Interests</h3>
+           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Interests</h3>
            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
              {INTERESTS.map((interest, index) => (
                <li key={index}>{interest}</li>

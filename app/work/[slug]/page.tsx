@@ -30,7 +30,7 @@ export default async function WorkPage(props: { params: Promise<{ slug: string }
         </Link>
         
         <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold font-serif">{job.role}</h1>
+            <h1 className="text-3xl font-bold tracking-tight">{job.role}</h1>
             <h2 className="text-xl text-muted-foreground font-medium">{job.company}</h2>
         </div>
 

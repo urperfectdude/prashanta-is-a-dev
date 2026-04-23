@@ -27,9 +27,21 @@ export default async function PostPage(props: { params: Promise<{ slug: string }
         <ArrowLeft className="mr-2 h-4 w-4" />
         Back to Blog
       </Link>
-      <article className="prose prose-invert max-w-none">
-        <h1 className="mb-2 font-serif">{post.title}</h1>
-        <p className="text-muted-foreground mb-6 block text-sm">{post.date}</p>
+      <article className="prose prose-invert max-w-none prose-headings:font-semibold prose-headings:tracking-tight prose-strong:font-semibold prose-em:italic prose-p:leading-relaxed">
+        <h1 className="mb-2 text-4xl md:text-5xl font-bold tracking-tight">{post.title}</h1>
+        <p className="text-muted-foreground mb-2 block text-sm">{post.date}</p>
+        {post.tags.length > 0 && (
+          <div className="mb-6 flex flex-wrap gap-2">
+            {post.tags.map((tag) => (
+              <span
+                key={tag}
+                className="inline-flex items-center rounded-full border border-white/15 bg-muted px-3 py-1 text-xs text-muted-foreground"
+              >
+                #{tag}
+              </span>
+            ))}
+          </div>
+        )}
         <Markdown rehypePlugins={[rehypeRaw]}>{post.content}</Markdown>
       </article>
     </main>

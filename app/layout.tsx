@@ -1,5 +1,5 @@
 import type { Metadata } from 'next'
-import { Inter, Playfair_Display } from 'next/font/google'
+import { Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
@@ -8,8 +8,7 @@ import { cn } from '@/lib/utils'
 
 import { NavigationTabs } from '@/components/navigation-tabs'
 
-const inter = Inter({ subsets: ['latin'], variable: '--font-sans' })
-const playfair = Playfair_Display({ subsets: ['latin'], variable: '--font-serif' })
+const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-sans' })
 
 export const metadata: Metadata = {
   title: 'Prashant Nayak',
@@ -26,7 +25,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={cn(inter.className, "min-h-screen bg-background font-sans antialiased text-foreground")}>
+      <body className={cn(spaceGrotesk.className, "min-h-screen bg-background font-sans antialiased text-foreground")}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:px-8">
           <div className="relative flex min-h-screen flex-col">
             <Header />

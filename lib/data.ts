@@ -2,7 +2,7 @@ export const ABOUT = {
   name: "Prashanta Nayak",
   initials: "PN",
   title: "Product Builder",
-  description: "Product-driven professional with 2+ years of cross-functional experience in product design, no-code development, and early-stage product building. Adept at driving product lifecycle from ideation to launch with strong skills in user research, stakeholder collaboration, MVP design, and growth experimentation.",
+  description: "tldr; mostly self-taught through internet rabbit holes and shipping tiny experiments. I love technology for the real-world impact, and I use AI plus code to build strange but useful products fast.",
   avatar: "https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg", // Updated avatar path
   contact: {
     email: "prashantnayak9999@gmail.com",

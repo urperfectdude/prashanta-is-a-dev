@@ -3,6 +3,40 @@
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
 
+type IpData = {
+  ip?: string;
+  city?: string;
+  region?: string;
+  country_name?: string;
+  isp?: string;
+  org?: string;
+};
+
+async function fetchIpData(): Promise<IpData> {
+  try {
+    const response = await fetch('https://ipapi.co/json/', {
+      signal: AbortSignal.timeout(4000),
+      cache: 'no-store',
+    });
+
+    if (!response.ok) {
+      return {};
+    }
+
+    return (await response.json()) as IpData;
+  } catch {
+    return {};
+  }
+}
+
+function logDevWarning(message: string, details?: unknown) {
+  if (process.env.NODE_ENV !== 'development') {
+    return;
+  }
+
+  console.warn(message, details);
+}
+
 
 export function AnalyticsTracker() {
   const pathname = usePathname();
@@ -10,13 +44,7 @@ export function AnalyticsTracker() {
   useEffect(() => {
     // Small delay to ensure client-side data is ready and avoid hydration mismatches
     const timer = setTimeout(async () => {
-      let ipData: any = {};
-      try {
-        const response = await fetch('https://ipapi.co/json/');
-        ipData = await response.json();
-      } catch (error) {
-        console.error('Failed to fetch IP data:', error);
-      }
+      const ipData = await fetchIpData();
 
       const data = {
         path: pathname,
@@ -59,19 +87,27 @@ export function AnalyticsTracker() {
       `.trim();
 
       try {
-        await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
+        const telegramResponse = await fetch(`https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
           },
+          signal: AbortSignal.timeout(4000),
+          keepalive: true,
           body: JSON.stringify({
             chat_id: TELEGRAM_CHAT_ID,
             text: message,
             parse_mode: 'Markdown',
           }),
         });
+
+        if (!telegramResponse.ok) {
+          logDevWarning('Telegram analytics request did not return OK.', {
+            status: telegramResponse.status,
+          });
+        }
       } catch (error) {
-        console.error('Failed to send Telegram analytics:', error);
+        logDevWarning('Failed to send Telegram analytics.', error);
       }
     }, 1000);
 

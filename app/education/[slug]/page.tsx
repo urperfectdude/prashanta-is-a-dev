@@ -30,7 +30,7 @@ export default async function EducationPage(props: { params: Promise<{ slug: str
         </Link>
         
         <div className="flex flex-col gap-2">
-            <h1 className="text-3xl font-bold font-serif">{edu.institution}</h1>
+            <h1 className="text-3xl font-bold tracking-tight">{edu.institution}</h1>
             <h2 className="text-xl text-muted-foreground font-medium">{edu.degree}</h2>
         </div>
 

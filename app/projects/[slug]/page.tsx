@@ -30,7 +30,7 @@ export default async function ProjectPage(props: { params: Promise<{ slug: strin
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Projects
         </Link>
-        <h1 className="text-3xl font-bold font-serif">{project.title}</h1>
+        <h1 className="text-3xl font-bold tracking-tight">{project.title}</h1>
         <div className="flex flex-wrap gap-2">
           {project.tags.map((tag) => (
             <Badge key={tag} variant="secondary" className="font-normal text-muted-foreground bg-muted/50 hover:bg-muted">
