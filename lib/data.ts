@@ -9,7 +9,6 @@ export const ABOUT = {
     linkedin: "https://www.linkedin.com/in/urperfectdude",
     github: "https://github.com/urperfectdude",
     instagram: "https://www.instagram.com/urperfectdude",
-    portfolio: "https://www.no-code-prashant.framer.website",
   },
 }
 
