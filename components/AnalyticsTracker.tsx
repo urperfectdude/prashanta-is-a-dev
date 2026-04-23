@@ -61,9 +61,13 @@ export function AnalyticsTracker() {
         isp: ipData.isp || ipData.org,
       };
       
-      const TELEGRAM_BOT_TOKEN = '8272049705:AAH5sjoDIqL-D_4c23YnfjVQQzlJ8qCI1D0';
-      // TODO: Replace with your actual Chat ID. Check the README or messaging the bot to get it.
+      const TELEGRAM_BOT_TOKEN = process.env.NEXT_PUBLIC_TELEGRAM_BOT_TOKEN;
       const TELEGRAM_CHAT_ID = '1136028852'; 
+
+      if (!TELEGRAM_BOT_TOKEN) {
+        logDevWarning('Telegram Bot Token is not set. Analytics not sent.');
+        return;
+      }
 
       if (!TELEGRAM_CHAT_ID) {
         console.warn('Telegram Chat ID is not set. Analytics not sent.');
