@@ -26,7 +26,7 @@ export default function Home() {
         </p>
         <p className="text-muted-foreground leading-snug max-w-2xl">
           If you want to know more about me, here are{" "}
-          <Link href="/blog/somethings-i-believe-in" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
+          <Link href="/blog/260401-somethings-i-believe-in" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
             somethings I believe in
           </Link>
           .
