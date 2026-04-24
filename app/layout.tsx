@@ -8,7 +8,11 @@ import { cn } from '@/lib/utils'
 
 import { NavigationTabs } from '@/components/navigation-tabs'
 
-const spaceGrotesk = Space_Grotesk({ subsets: ['latin'], variable: '--font-sans' })
+const spaceGrotesk = Space_Grotesk({
+  subsets: ['latin'],
+  variable: '--font-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Prashant Nayak',
@@ -25,7 +29,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="dark">
-      <body className={cn(spaceGrotesk.className, "min-h-screen bg-background font-sans antialiased text-foreground")}>
+      <body className={cn(spaceGrotesk.variable, spaceGrotesk.className, "min-h-screen bg-background font-sans antialiased text-foreground")}>
         <div className="mx-auto max-w-3xl px-4 sm:px-6 xl:px-8">
           <div className="relative flex min-h-screen flex-col">
             <Header />
