@@ -1,11 +1,11 @@
 ---
-title: "Yogini's Promptness Towards a Task"
-date: "2026-03-17"
-description: "Yogini asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so tha..."
+title: "Manager's Promptness Towards a Task"
+date: "2024-09-17"
+description: "Manager's asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so tha..."
 tags: ["technology", "product", "journal", "people"]
 ---
 
-Yogini asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so that becomes easier to know what parameters to ask for during each sync call. Even the existing paramters are too confusing and again and again needs answers from either sudarshan or omar to fully udnerstand it.
+Today my Managaer asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so that becomes easier to know what parameters to ask for during each sync call. Even the existing paramters are too confusing and again and again needs answers from either x or y colleagues to fully udnerstand it.
 
 So I just agrreed ok will work on it and next day when she asked about sync flow I was jot able to explain well, which led to anger on yogini side that we have discussed 3 times why you haven't documneted it yet anywhere. Then I also yes it should be documebted and decided to document after this. The questions were like what are situations where sync takes place, both for vehicle and fleet.
 
