@@ -13,3 +13,5 @@ Strava has all upper claas and lower class settlement data I was using strava ap
 
 3. You can't se any blue lines in areas like kamanahalli, holsur etc.
 What observation I did, All the lowerclass people don't get time to run after physical jobs due to which they get tired and sleep without giing for running. On other hand this rich people have spare time from their deskjobs staying near to it places because of bandwith of affording expensive stays.
+
+<img width="1080" height="1080" alt="image" src="https://github.com/user-attachments/assets/a934e1cc-849f-4417-93e9-274c429e782f" />
