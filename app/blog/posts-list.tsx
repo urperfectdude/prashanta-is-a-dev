@@ -85,9 +85,18 @@ export default function BlogPostsList({ posts, tags }: BlogPostsListProps) {
         return (
           <article
             key={post.slug}
-            className={`group relative flex gap-6 md:gap-10 items-start transition-colors hover:bg-muted/50 active:bg-muted/50 py-4 px-4 -mx-4 rounded-none border-white/5 ${!isLast ? 'border-b' : ''}`}
+            role="link"
+            tabIndex={0}
+            onClick={() => router.push(`/blog/${post.slug}`)}
+            onKeyDown={(event) => {
+              if (event.key === 'Enter' || event.key === ' ') {
+                event.preventDefault()
+                router.push(`/blog/${post.slug}`)
+              }
+            }}
+            className={`group relative flex cursor-pointer gap-6 md:gap-10 items-start transition-colors hover:bg-muted/50 active:bg-muted/50 py-4 px-4 -mx-4 rounded-none border-white/5 ${!isLast ? 'border-b' : ''}`}
+            aria-label={`Read ${post.title}`}
           >
-            <Link href={`/blog/${post.slug}`} className="absolute inset-0" aria-label={`Read ${post.title}`} />
             <div className="relative z-10 flex flex-col items-end shrink-0 w-[4.5rem] pt-1">
               <span className="text-2xl font-semibold leading-none tabular-nums">{day}</span>
               <span className="text-xs text-muted-foreground text-right mt-1">{monthYear}</span>
