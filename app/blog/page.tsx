@@ -1,5 +1,6 @@
 import { getAllPosts } from '@/lib/posts'
 import BlogPostsList, { type BlogPostSummary } from './posts-list'
+import { Suspense } from 'react'
 
 function getRandomizedUniqueTags(tags: string[]): string[] {
   const uniqueTags = [...new Set(tags)]
@@ -30,5 +31,9 @@ export default async function BlogIndex({ searchParams }: BlogIndexProps) {
   }))
   const randomUniqueTags = getRandomizedUniqueTags(posts.flatMap((post) => post.tags))
 
-  return <BlogPostsList posts={postSummaries} tags={randomUniqueTags} />
+  return (
+    <Suspense fallback={<main className="py-8 text-sm text-muted-foreground">Loading posts...</main>}>
+      <BlogPostsList posts={postSummaries} tags={randomUniqueTags} />
+    </Suspense>
+  )
 }

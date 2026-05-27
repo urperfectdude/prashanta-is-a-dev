@@ -2,6 +2,8 @@ import { promises as fs } from "fs";
 import path from "path";
 import { NextResponse } from "next/server";
 
+export const dynamic = "force-static";
+
 const RESUME_FILENAME = "prashanta-nayak-cv-product-engineer.pdf";
 
 export async function GET() {
