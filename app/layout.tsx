@@ -15,7 +15,7 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  title: 'Prashant Nayak',
+  title: 'Prashanta Nayak',
   description: 'Product-driven professional with 2+ years of cross-functional experience.',
   icons: {
     icon: 'https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg',

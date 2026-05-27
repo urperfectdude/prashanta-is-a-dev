@@ -1,11 +1,11 @@
 ---
 title: "Why Left Electrical Engineering"
 date: "2025-07-11"
-description: "On the beach: 5 years before once my teacher asked, Prashant what will you pursue after 10th? I confidently replied, Diploma in Electrical Engineering withou..."
+description: "On the beach: 5 years before once my teacher asked, Prashanta what will you pursue after 10th? I confidently replied, Diploma in Electrical Engineering witho..."
 tags: ["technology", "product", "relationships", "journal"]
 ---
 
-5 years before once my teacher asked, Prashant what will you pursue after 10th? I confidently replied, Diploma in Electrical Engineering without knowing even 1% of it's complexity. I got decent marks but the competition was too high for the core electrical due to which I couldn't get into one of the top gov college GP Mumbai.
+5 years before once my teacher asked, Prashanta what will you pursue after 10th? I confidently replied, Diploma in Electrical Engineering without knowing even 1% of it's complexity. I got decent marks but the competition was too high for the core electrical due to which I couldn't get into one of the top gov college GP Mumbai.
 
 In electrical due to limited seats, in exchange I was receiving electronics and IT which I was not much interested in, so at the age of 16 I got enough courage to go out of my city 600km far in Nagpur where I was getting admission. Then locked down happen and the excitement I had for the college just stayed in the google meet and whatsapp group.
 
