@@ -1,7 +1,7 @@
 ---
 title: "Manager's Promptness Towards a Task"
-date: "2024-09-17"
-description: "Manager's asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so tha..."
+date: "2026-03-17"
+description: "Yogini asked me to make a flow of solution where we can improve the understanding of active status or sync status of the vehicles as well as fleets, so tha..."
 tags: ["technology", "product", "journal", "people"]
 ---
 

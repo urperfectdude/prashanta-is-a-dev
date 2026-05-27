@@ -5,11 +5,11 @@ description: "Book sex at dawn 1. We are evolution of ape and chempanzees even 9
 tags: ["relationships", "food"]
 ---
 
-Book sex at dawn
+### Book sex at dawn - review
 
 1. We are evolution of ape and chempanzees even 99% DNA matches and the line drawn between human and ape is artificial.
 
-2. Lifetime monogamy is just beain wash
+2. Lifetime monogamy is just brain wash
 
 3. Statistics wise humans crave for sex a lot but which is hidden or indiscollosed by lot of people
 
@@ -22,4 +22,4 @@ Book sex at dawn
 7. Lot of theories by darwin were myths like monogamy even he had erectos phobia.
 
 8. Previously sapions were group dependent on each other and there was no concept like privacy at that time, even mothers use to breast each others babies.
-9.
+

@@ -5,7 +5,7 @@ description: "\"1.5 years ago, I dropped out of traditional college. Since then,
 tags: ["journal", "personal"]
 ---
 
-"1.5 years ago, I dropped out of traditional college. Since then, I’ve been on a journey of experimenting with different paths to figure out what I truly love. I tried design, but I realized it wasn’t for me either.
+1.5 years ago, I dropped out of traditional college. Since then, I’ve been on a journey of experimenting with different paths to figure out what I truly love. I tried design, but I realized it wasn’t for me either.
 
 So, I didn’t waste another minute on it. Using my skills in media and entertainment, I built a portfolio of edited videos and posted it on Twitter. That led to amazing offers from creators like MotorOctane, 500Sharan, and ThingsCool.
 

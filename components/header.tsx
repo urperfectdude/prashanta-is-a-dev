@@ -2,17 +2,19 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
-import { Github, Linkedin, Instagram, Mail } from 'lucide-react'
+import { Github, Linkedin, Instagram, Mail, FileDown, Menu, X } from 'lucide-react'
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { ABOUT } from "@/lib/data"
 
 export function Header() {
   const [showToast, setShowToast] = useState(false)
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   const socialLinks = [
     { href: ABOUT.contact.github, icon: Github, label: 'GitHub' },
     { href: ABOUT.contact.linkedin, icon: Linkedin, label: 'LinkedIn' },
     { href: ABOUT.contact.instagram, icon: Instagram, label: 'Instagram' },
+    { href: ABOUT.contact.resume, icon: FileDown, label: 'Download resume', download: true },
   ]
 
   const handleCopyEmail = async () => {
@@ -53,13 +55,14 @@ export function Header() {
           </div>
 
           <nav className="flex items-center gap-4">
-             <div className="flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-3">
               {socialLinks.map((link) => (
                 <a
                   key={link.label}
                   href={link.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  target={link.download ? undefined : "_blank"}
+                  rel={link.download ? undefined : "noopener noreferrer"}
+                  download={link.download ? "prashanta-nayak-cv-product-engineer.pdf" : undefined}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   aria-label={link.label}
                 >
@@ -74,8 +77,50 @@ export function Header() {
                 <Mail className="h-5 w-5" />
               </button>
             </div>
+
+            <button
+              onClick={() => setIsMenuOpen((prev) => !prev)}
+              className="md:hidden text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+              aria-expanded={isMenuOpen}
+              aria-controls="mobile-header-menu"
+            >
+              {isMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
+            </button>
           </nav>
         </div>
+
+        {isMenuOpen && (
+          <div
+            id="mobile-header-menu"
+            className="md:hidden mt-3 flex items-center justify-end gap-4 border-t border-white/10 pt-3"
+          >
+            {socialLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                target={link.download ? undefined : "_blank"}
+                rel={link.download ? undefined : "noopener noreferrer"}
+                download={link.download ? "prashanta-nayak-cv-product-engineer.pdf" : undefined}
+                className="text-muted-foreground hover:text-foreground transition-colors"
+                aria-label={link.label}
+                onClick={() => setIsMenuOpen(false)}
+              >
+                <link.icon className="h-5 w-5" />
+              </a>
+            ))}
+            <button
+              onClick={() => {
+                void handleCopyEmail()
+                setIsMenuOpen(false)
+              }}
+              className="text-muted-foreground hover:text-foreground transition-colors cursor-pointer"
+              aria-label="Copy email"
+            >
+              <Mail className="h-5 w-5" />
+            </button>
+          </div>
+        )}
       </header>
 
       {/* Toast notification */}

@@ -22,11 +22,12 @@ paths that reward progress and collaboration.
 
 ## Tech Stack
 
-- **Platform**: Bubble.io
+- **Platform**: React, Javascript, Deepgram, OpenAI
 - **Design**: Figma
-- **Integrations**: Zapier, SendGrid
 
 ## Impact
 
 - Increased course completion rates from 30% to **85%**.
 - Received 4.8/5 user satisfaction rating from pilot group.
+
+https://sherpa.yourerpcoach.com/

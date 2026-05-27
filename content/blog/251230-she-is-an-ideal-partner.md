@@ -1,7 +1,7 @@
 ---
 title: "She is an Ideal Partner"
 date: "2025-12-30"
-description: "A colleague of mine said she wants someone who is upfront, sorted, a softie, bestfriend material, and curious. Feels like she is describing a person who brings calmness..."
+description: "She said she wants someone who is upfront, sorted, a softie, bestfriend material, and curious. Feels like she is describing a person who brings calmness..."
 tags: ["relationships", "journal"]
 ---
 

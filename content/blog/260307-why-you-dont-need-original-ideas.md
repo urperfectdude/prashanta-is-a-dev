@@ -1,14 +1,37 @@
 ---
 title: "Why You Don't Need Original Ideas"
 date: "2026-03-07"
-description: "Pioneers get the _ and winners get the _ Starbucks did better branding copying peets coffee and tea (credibility, original, experince) you just need better b..."
-tags: ["journal", "mindset"]
+description: "A reflection on why execution, positioning, and brand voice often matter more than pure originality in building winning products."
+tags: ["journal", "mindset", "product", "marketing"]
 ---
 
-Pioneers get the _ and winners get the _ Starbucks did better branding copying peets coffee and tea (credibility, original, experince) you just need better brand is more than just a product
+One thing I keep noticing is that people over-romanticize original ideas and underestimate execution.
 
-- storytelling
+You do not always need a completely new idea to win. In many markets, the winner is not the first creator. The winner is usually the one who understands distribution, positioning, and user behavior better.
 
-- positioning
+Take Starbucks and Peet's as a pattern. Starbucks did not invent coffee. It built a stronger mainstream brand experience around something that already existed.
 
-- Instagram having short videos, but tiktok outperformed insta with music licensing and beyter algo Ibm with think tag line and apple with think different - make it dramamtically rebellious They were alternative n not original Positioning as explicit conflicting Fastest and cheapeat way to dominant - win with brand voice Neutral is forgettable, POV sells Like liquid death Compete on personality - but it won't work for products or the people for those basic needs are not fullfilled. Like lot of ideas will work more for western than india. that's the Innovation is itself modfying something no one depends on originality eaither way, hence when people say originality it's more about what innovation you have done that existing method, so I felt the video was just surface level motivation by just justifying what has been worked so far.
+For me, brand is never just the product. Brand includes storytelling, positioning, emotional association, and repeatability of experience.
+
+TikTok vs Instagram is another useful case. Short video format was not a brand-new social concept by the time it scaled, but TikTok won mindshare through algorithm quality, creator loops, and music-native culture.
+
+Even in older business history, IBM's "Think" and Apple's "Think Different" show how positioning can shift market identity. Apple did not win by being neutral. It won by being explicit, opinionated, and culturally sharp.
+
+That is another big lesson for me.
+
+Neutral is forgettable.
+Point of view sells.
+
+Brands like Liquid Death prove this at scale. The category is basic, but personality creates differentiation.
+
+At the same time, this strategy is context-dependent. Not every market responds the same way. Some brand-first playbooks that work in the West do not directly translate to India, especially where users still prioritize affordability and reliability over narrative.
+
+So I do not think originality is useless. I think originality is often misunderstood.
+
+Most innovation is not invention from zero. Most innovation is meaningful modification of what already exists: better experience, better access, better economics, or better emotional connection.
+
+When people say "be original," what usually matters in practice is this:
+
+How clearly did you improve the existing method for a real user?
+
+That is the standard I want to optimize for, not performative originality.

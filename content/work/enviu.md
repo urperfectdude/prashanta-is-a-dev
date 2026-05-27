@@ -1,6 +1,6 @@
 ---
 company: "Enviu"
-role: "Product Builder"
+role: "AI Product Engineer"
 period: "Oct'25 - Present"
 logo: "/logos/enviu.png"
 url: "https://www.enviu.org"

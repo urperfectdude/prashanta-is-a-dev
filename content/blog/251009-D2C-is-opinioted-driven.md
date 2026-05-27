@@ -1,5 +1,5 @@
 ---
-title: "Notes VI"
+title: "D2C is opinioted Driven"
 date: "2025-10-09"
 description: "In D2C lot of things needs to be moving on opinioted. It means what your product should and shouldn't do. Becoz if you don't do it Jack dorsey said"
 tags: ["product", "journal"]

@@ -1,7 +1,7 @@
 export const ABOUT = {
   name: "Prashanta Nayak",
   initials: "PN",
-  title: "Product Builder",
+  title: "AI Product Engineer",
   description: "tldr; mostly self-taught through internet rabbit holes and shipping tiny experiments. I love technology for the real-world impact, and I use AI plus code to build strange but useful products fast.",
   avatar: "https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg", // Updated avatar path
   contact: {
@@ -9,6 +9,7 @@ export const ABOUT = {
     linkedin: "https://www.linkedin.com/in/urperfectdude",
     github: "https://github.com/urperfectdude",
     instagram: "https://www.instagram.com/urperfectdude",
+    resume: "/api/resume",
   },
 }
 

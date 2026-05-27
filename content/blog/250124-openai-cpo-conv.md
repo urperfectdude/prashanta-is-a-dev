@@ -1,30 +1,32 @@
 ---
-title: "Openai CPO Conversation"
+title: "What I Learned from an OpenAI CPO Conversation"
 date: "2025-01-24"
-description: "• OpenAI CPO Kevin Weil • You can't do much just by reducing workload of database, nothing affects much by 5% to 10% but it impacts much when you transform a ..."
-tags: ["ai", "career", "product"]
+description: "My key takeaways on product strategy in AI: why transformation beats small optimization, why data quality matters, and where opportunities are opening next."
+tags: ["ai", "career", "product", "technology"]
 ---
 
-OpenAI CPO Kevin Weil
+I recently went through a conversation with OpenAI CPO Kevin Weil, and it gave me a clearer lens on how to think about product in the AI era.
 
-- You can't do much just by reducing workload of database, nothing affects much by 5% to 10% but it impacts much when you transform a product.
+The first idea that stood out was this: small optimizations are useful, but product transformation creates disproportionate impact. Improving system efficiency by 5 to 10 percent can help, but changing what users can do with a product can create a completely different category of value.
 
-- When Technology progress at such speed product becomes crucial role to be in.
+This is why product thinking is becoming more important as technology moves faster. When model capabilities keep improving rapidly, the real differentiator becomes what you build, for whom, and how quickly you can iterate in the real world.
 
-- Mostly model is lack of training right data and not lack of models.
+Another insight I found practical is that many failures in AI products are not because the base model is weak. The bigger gap is often data quality, context, and workflow design. In many cases, the right data pipeline and feedback loop matter more than chasing the newest model headline.
 
-- Moores law -> tansistors double every 2 years and cost is halved.. that's what happen with Ai models
+There is also a Moore's law style dynamic now visible in AI. Capability is rising fast while effective cost per unit of output keeps dropping. That changes product economics quickly, and teams that adapt early gain compounding advantage.
 
-- Deep research is the best model yet in chatgpt by openai that gives detailed answers, because of reasoning and better pretraining.
+I was also thinking about how reasoning-focused systems are changing expectations. Users now want depth, not just quick replies. Better reasoning and stronger pretraining can make outputs more useful for serious tasks, not just casual prompts.
 
-- Creative work and code will be more of management stuff in future, because they have more control on iterations and that too very quickly. it's becomes more like putting the work instead of outsourcing to someone else.
+For builders, this shifts the nature of work. Creative output and coding increasingly become management of iterations. Instead of outsourcing everything, individuals can direct rapid cycles themselves. The bottleneck is moving from execution capacity to judgment capacity.
 
-- It puts bigger emphasize on what to build
+That means the central question is no longer only "How do we build?" It is "What should we build, and why does it matter now?"
 
-- Most of the people expect to be part of something bigger and make world better place and not too depend on universal income. Startup Ideas :
+I also agree with the broader human point that most people do not just want passive income systems. They want to contribute to something meaningful and feel ownership in creation.
 
-- Model trained on private data is more useful for a company than public data.
+From a startup perspective, one clear opportunity is private-data adaptation. A model tuned on company-specific context can be far more valuable than generic intelligence trained only on public data.
 
-- Personalised tutor, that should be for every kid because every kid have different strength and weakness.
+Another high-impact space is personalized tutoring. Every learner has different strengths, weaknesses, speed, and motivation patterns. AI can make one-to-one style learning support more accessible at scale.
 
-- Using AI in robotics and voice interfaces is will be next future thing to be done.
+And beyond software, I think AI-native voice interfaces and robotics will be major frontiers. As models improve grounding, interaction, and planning, real-world interfaces will become much more practical.
+
+My biggest takeaway from this conversation is simple. In fast AI cycles, advantage comes from product clarity, data advantage, and execution speed, not from model hype alone.
