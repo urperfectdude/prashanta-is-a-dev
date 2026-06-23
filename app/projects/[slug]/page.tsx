@@ -4,8 +4,8 @@ import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import Link from 'next/link'
 import { ArrowLeft } from 'lucide-react'
-import Markdown from 'react-markdown'
-import rehypeRaw from 'rehype-raw'
+import { ProjectMarkdown } from '@/components/project-markdown'
+import Image from 'next/image'
 
 // Generate static params for static export
 export function generateStaticParams() {
@@ -41,14 +41,24 @@ export default async function ProjectPage(props: { params: Promise<{ slug: strin
       </div>
 
       <div className="aspect-video w-full rounded-lg bg-muted/20 border border-border flex items-center justify-center relative overflow-hidden group">
-         {/* Placeholder for actual image */}
-         <div className="absolute inset-0 bg-gradient-to-br from-muted/30 to-muted/10" />
-         <span className="z-10 text-muted-foreground font-medium">Cover Image: {project.title}</span>
+         {project.image?.startsWith('/projects/') ? (
+           <Image
+             src={project.image}
+             alt={project.title}
+             fill
+             className="object-cover"
+           />
+         ) : (
+           <>
+             <div className="absolute inset-0 bg-gradient-to-br from-muted/30 to-muted/10" />
+             <span className="z-10 text-muted-foreground font-medium">Cover Image: {project.title}</span>
+           </>
+         )}
       </div>
 
       <article className="prose prose-invert max-w-none">
          <p className="lead text-xl text-muted-foreground mb-8">{project.description}</p>
-         <Markdown rehypePlugins={[rehypeRaw]}>{project.content}</Markdown>
+         <ProjectMarkdown content={project.content} />
       </article>
     </main>
   )

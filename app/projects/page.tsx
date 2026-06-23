@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge"
 import { Card, CardTitle, CardDescription } from "@/components/ui/card"
 import { getAllProjects } from "@/lib/projects"
 import Link from "next/link"
+import Image from "next/image"
 
 export default function ProjectsPage() {
   const projects = getAllProjects()
@@ -21,9 +22,20 @@ export default function ProjectsPage() {
             <Card className="h-full hover:bg-zinc-800/80 transition-colors cursor-pointer group bg-zinc-900 border-none overflow-hidden relative">
               <div className="flex flex-col sm:flex-row h-full">
                 {/* Left Image Section */}
-                <div className="w-full sm:w-48 h-40 sm:h-auto bg-muted/20 shrink-0 relative flex items-center justify-center">
-                  <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
-                  <span className="relative text-xs text-muted-foreground font-medium">Image</span>
+                <div className="w-full sm:w-48 h-40 sm:h-full bg-muted/20 shrink-0 relative flex items-center justify-center overflow-hidden">
+                  {project.image?.startsWith("/projects/") ? (
+                    <Image
+                      src={project.image}
+                      alt={project.title}
+                      fill
+                      className="object-cover"
+                    />
+                  ) : (
+                    <>
+                      <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
+                      <span className="relative text-xs text-muted-foreground font-medium">Image</span>
+                    </>
+                  )}
                 </div>
 
                 {/* Right Content Section */}
