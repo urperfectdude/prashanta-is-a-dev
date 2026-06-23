@@ -49,6 +49,7 @@ No backend. No database. Just files and a player.
 What it's grown into since that first midnight version:
 
 - **Transcripts** — full text of each discourse, synced to the audio.
+- **Media Offline** — User can download the media on their device to listen to it when offline.
 - **Transcript-based search** — search inside the actual words spoken, not just titles and tags, and jump straight to that moment in the audio.
 - **Bookmarks with comments** — save a timestamp and write a note on why it mattered, so you can come back to it later.
 - **Reels/shorts** — short clippable moments from discourses for people who want a five minute hit instead of an hour.
