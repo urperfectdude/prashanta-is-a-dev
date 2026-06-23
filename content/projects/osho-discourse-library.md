@@ -2,7 +2,7 @@
 title: "Osho Discourse Library"
 date: "2026-03-01"
 description: "Personal audio library for Osho discourses that turned into a free web app used by hundreds of listeners."
-image: "/projects/interesting/overview.jpg"
+image: "https://github.com/user-attachments/assets/1005c636-91f2-4d2e-b95c-c71c995c23f7"
 tags: ["Midnight Product", "React", "PostHog"]
 ---
 
@@ -21,23 +21,18 @@ Thought it might help others too, so I posted on Reddit before going to sleep. W
   data-url="https://www.reddit.com/r/Osho/comments/1r97sp6/i_built_a_free_web_app_organizing_all_osho/"
   data-title="I built a free web app organizing all Osho discourses by topic"
   data-subreddit="Osho"
+  data-theme="dark"
 ></div>
 
 [rajneesh-live.github.io/library/explore](https://rajneesh-live.github.io/library/explore)
 
 ## Numbers (last 90 days)
 
-![PostHog overview](/projects/interesting/overview.jpg)
+602 visitors, 12.9k page views, 28 min average session. People are not just landing and leaving.
 
-602 visitors, 12.9k page views, 28 min average session. People are not just landing and leaving. 19% bounce rate.
+<img width="1600" height="1200" alt="weekly-active-users" src="https://github.com/user-attachments/assets/c4744d85-3880-42a0-afc0-9e31c6626a95" />
 
-![Weekly active users](/projects/interesting/weekly-active-users.png)
-
-![Total listened minutes](/projects/interesting/listened-minutes.png)
-
-![Listened minutes by hour](/projects/interesting/listened-by-hour.png)
-
-![Referring domains](/projects/interesting/referring-domains.png)
+<img width="1600" height="1200" alt="listened-minutes" src="https://github.com/user-attachments/assets/f483bea7-e986-4af2-907c-6ae48566d53b" />
 
 Reddit still sends a good chunk of traffic. A lot of people come back direct too.
 
