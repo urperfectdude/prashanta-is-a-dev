@@ -2,7 +2,7 @@
 title: "Osho Discourse Library"
 date: "2026-03-01"
 description: "Personal audio library for Osho discourses that turned into a free web app used by hundreds of listeners."
-image: "https://github.com/user-attachments/assets/1005c636-91f2-4d2e-b95c-c71c995c23f7"
+image: "public/projects/rajnessh-app-overview.jpg"
 tags: ["Midnight Product", "React", "PostHog"]
 ---
 
