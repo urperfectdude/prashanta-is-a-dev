@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 export const dynamic = "force-static";
 
-const RESUME_FILENAME = "prashanta-nayak-cv-product-engineer.pdf";
+const RESUME_FILENAME = "Nayak_Prashanta_Resume.pdf";
 
 export async function GET() {
   try {

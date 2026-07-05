@@ -62,7 +62,7 @@ export function Header() {
                   href={link.href}
                   target={link.download ? undefined : "_blank"}
                   rel={link.download ? undefined : "noopener noreferrer"}
-                  download={link.download ? "prashanta-nayak-cv-product-engineer.pdf" : undefined}
+                  download={link.download ? "Nayak_Prashanta_Resume.pdf" : undefined}
                   className="text-muted-foreground hover:text-foreground transition-colors"
                   aria-label={link.label}
                 >
@@ -101,7 +101,7 @@ export function Header() {
                 href={link.href}
                 target={link.download ? undefined : "_blank"}
                 rel={link.download ? undefined : "noopener noreferrer"}
-                download={link.download ? "prashanta-nayak-cv-product-engineer.pdf" : undefined}
+                download={link.download ? "Nayak_Prashanta_Resume.pdf" : undefined}
                 className="text-muted-foreground hover:text-foreground transition-colors"
                 aria-label={link.label}
                 onClick={() => setIsMenuOpen(false)}
