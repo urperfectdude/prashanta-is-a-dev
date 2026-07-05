@@ -22,7 +22,7 @@ export default function ProjectsPage() {
             <Card className="h-full hover:bg-zinc-800/80 transition-colors cursor-pointer group bg-zinc-900 border-none overflow-hidden relative">
               <div className="flex flex-col sm:flex-row h-full">
                 {/* Left Image Section */}
-                <div className="w-full sm:w-48 h-40 sm:h-full bg-muted/20 shrink-0 relative flex items-center justify-center overflow-hidden">
+                <div className="w-full sm:w-48 h-40 sm:h-56 bg-muted/20 shrink-0 relative flex items-center justify-center overflow-hidden">
                   {project.image?.startsWith("/projects/") ? (
                     <Image
                       src={project.image}
