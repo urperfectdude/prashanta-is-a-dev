@@ -2,7 +2,7 @@
 title: "Sherpa - AI Chrome Extension for ERP Training"
 date: "2024-06-01"
 description: "An AI Chrome extension that turns any Oracle ERP workflow into a finished training guide and voiceover video, live at sherpa.yourerpcoach.com."
-image: ""
+image: "/projects/sherpa-erp.jpg"
 tags: ["Chrome Extension", "LangGraph", "Claude", "FFmpeg", "AI Pipeline"]
 ---
 
