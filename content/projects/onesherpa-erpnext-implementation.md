@@ -26,13 +26,20 @@ Claude Haiku is the primary model behind the agents now, which cut inference cos
 
 Alongside the backend rebuild, I redesigned and built the core screens myself, front end included: the dashboard, the chat screen, a two-stage questionnaire page, and the chat screen settings page.
 
-[Screenshot placeholder: dashboard, before and after]
+![OneSherpa project dashboard, before and after redesign](/projects/onesherpa-project-page.png)
+Project cards on the old dashboard showed a title, a date, and "Private," and nothing else, so telling one project from another meant opening each one and checking. A card now carries a live thumbnail of the actual site next to its real URL. You can tell which project is which by what it looks like instead of by its name in a list.
 
-[Screenshot placeholder: chat screen, before and after]
+![OneSherpa chat screen, before and after redesign](/projects/onesherpa-chatscreen.png)
+The old chat panel sat next to the raw ERPNext admin backend, a full sidebar running from Accounting to Manufacturing to CRM, so confirming what had just happened meant reading that admin screen yourself. It now sits next to a plain summary card, "Department Created Successfully" and the fields that changed, with a live preview of the real site running alongside it. You can see the result of what you asked for without knowing how to read ERPNext at all.
 
-[Screenshot placeholder: two-stage questionnaire page, before and after]
+![OneSherpa two-stage questionnaire, before and after redesign](/projects/onesherpa-questionarre.png)
+The old questionnaire only offered fixed multiple-choice buttons. If none of them matched your situation, you picked the closest one and moved on. The second stage now swaps those buttons for an open text field with an example above it, plus a floating "Ask onesherpa" widget docked on screen, ready to answer a question right where you got stuck instead of leaving you to guess from a list that doesn't fit.
 
-[Screenshot placeholder: chat screen settings page, before and after]
+![OneSherpa chat settings, before and after redesign](/projects/onesherpa-settings.png)
+Settings used to be four flat cards, and opening Credentials showed the raw admin username and password sitting in plain text next to a copy button. The redesign turns that into three panes: settings down the left, the setup conversation itself running through the middle with a visible check before anything gets created, and the selected item on the right, now a structured, syntax-highlighted JSON view instead of a password sitting out in the open.
+
+![OneSherpa login screen, before and after redesign](/projects/onesherpa-login.png)
+The old login card carried a small caps "ONESHERPA" label, a "Log in with OTP" headline, a labeled input, and a "Need an account? Create account" link underneath. Now it's just the real logo sitting above an unlabeled "Email or phone number" field and the send button, so the first thing you see is one field to fill in, not a page to read first.
 
 I also added a floating widget chat window that sits over the implementation flow. Instead of a user staring at a long list of ERPNext options and guessing what applies to them, they can ask the widget a question mid-setup and get pointed at the specific thing to configure next, which cuts down the decision fatigue of not knowing what to implement out of everything ERPNext exposes.
 
