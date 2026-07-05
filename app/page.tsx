@@ -3,7 +3,7 @@ import { Badge } from "@/components/ui/badge"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
 import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
-import { ABOUT, SKILLS, ACHIEVEMENTS, CERTIFICATIONS, INTERESTS } from "@/lib/data"
+import { ABOUT, SKILLS, ACHIEVEMENTS, CERTIFICATIONS } from "@/lib/data"
 import { getAllProjects } from "@/lib/projects"
 import { getAllWorkExperience, calculateDuration } from "@/lib/experience"
 import { getAllEducation } from "@/lib/education"
@@ -184,15 +184,6 @@ export default function Home() {
            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
              {CERTIFICATIONS.map((cert, index) => (
                <li key={index}>{cert}</li>
-             ))}
-           </ul>
-        </div>
-
-        <div className="space-y-6">
-           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Interests</h3>
-           <ul className="list-disc list-inside space-y-2 text-muted-foreground">
-             {INTERESTS.map((interest, index) => (
-               <li key={index}>{interest}</li>
              ))}
            </ul>
         </div>
