@@ -2,7 +2,7 @@
 title: "Real-Time BookMyShow Sales Tracker for SmallWorld"
 date: "2026-06-01"
 description: "A scraping pipeline and Telegram bot that gives event organizers live ticket-sales numbers from BookMyShow, which has no public API."
-image: "/projects/smallworld_bms_bot.jpeg"
+image: "/projects/smallworld.jpg"
 tags: ["TypeScript", "Node.js", "Playwright", "Supabase", "Prisma", "Telegram Bot"]
 ---
 
