@@ -9,6 +9,7 @@ import { getAllWorkExperience, calculateDuration } from "@/lib/experience"
 import { getAllEducation } from "@/lib/education"
 import { Mail, Globe, Github, Linkedin, Instagram, ChevronRight } from "lucide-react"
 import Link from "next/link"
+import Image from "next/image"
 import { CompanyLink } from "@/components/company-link"
 
 export default function Home() {
@@ -84,10 +85,20 @@ export default function Home() {
                   <Card className="h-full hover:bg-zinc-800/80 transition-colors cursor-pointer group bg-zinc-900 border-none overflow-hidden relative">
                     <div className="flex flex-col md:flex-row h-full">
                        {/* Left Image Section */}
-                       <div className="w-full md:w-48 h-48 md:h-auto bg-muted/20 shrink-0 relative flex items-center justify-center">
-                          {/* Placeholder Image Logic */}
-                          <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
-                          <span className="relative text-xs text-muted-foreground font-medium">Image</span>
+                       <div className="w-full md:w-48 h-48 md:h-56 bg-muted/20 shrink-0 relative flex items-center justify-center overflow-hidden">
+                          {project.image?.startsWith("/projects/") ? (
+                            <Image
+                              src={project.image}
+                              alt={project.title}
+                              fill
+                              className="object-cover"
+                            />
+                          ) : (
+                            <>
+                              <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
+                              <span className="relative text-xs text-muted-foreground font-medium">Image</span>
+                            </>
+                          )}
                        </div>
                        
                        {/* Right Content Section */}
