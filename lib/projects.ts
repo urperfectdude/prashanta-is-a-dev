@@ -19,7 +19,7 @@ export function getAllProjects(): Project[] {
     return []
   }
 
-  const fileNames = fs.readdirSync(projectsDirectory)
+  const fileNames = fs.readdirSync(projectsDirectory).filter((fileName) => fileName.endsWith('.md'))
   const allProjectsData = fileNames.map((fileName) => {
     const slug = fileName.replace(/\.md$/, '')
     const fullPath = path.join(projectsDirectory, fileName)

@@ -1,5 +1,5 @@
 ---
-title: "Foodasao Abhishek"
+title: "Foodaspas Abhishek"
 date: "2025-04-22"
 description: "I have mixed feelings about Abhishek, our company’s CTO. Let me recall a few incidents. One day, while heading home, he offered me a ride since we were goi..."
 tags: ["career", "food", "health", "journal"]

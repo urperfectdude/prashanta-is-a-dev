@@ -22,13 +22,13 @@ The hard part isn't reading the page. It's not getting blocked. BookMyShow runs 
 
 Speed matters too, because stale numbers are useless and there's a lot to keep current: more than 10,000 events. The service runs four headless browsers in parallel on a virtual display using Xvfb, staggered so they don't all hit the site at once and trip rate limits. The first version wrote each event back one row at a time, which fell apart at that volume. I switched to bulk SQL upserts that push a whole batch of events in a single statement instead of a query per show. That one change is most of why a full pass now finishes in a reasonable window. Prisma still handles the session database, where the lighter, structured reads and writes are a better fit for an ORM than the bulk event writes are.
 
-On top of that sits a node-cron job that re-scrapes on an interval, plus a small authenticated HTTP API. `POST /scrape` kicks off an on-demand run when someone wants numbers right now, and `GET /status` is there for health checks.
+On top of that sits a node-cron job that re-scrapes on an interval, plus a small authenticated HTTP API. `POST /scrape` kicks off an on-demand run when someone wants numbers right now, and `GET /status` is there for health checks. Between the cron schedule and the parallel browsers, no event's numbers sit stale for more than 90 seconds.
 
-The whole thing is Dockerized and deploys itself. Push to GitHub, GitHub Actions builds the image and pushes it to GHCR, and CapRover pulls and runs it on a DigitalOcean droplet. Keeping Chromium stable in production took some tuning of the shared-memory config, which is the kind of thing you only find out about once four browsers start crashing under load.
+The whole thing is Dockerized and deploys itself. Push to GitHub, GitHub Actions builds the image and pushes it to GHCR, and CapRover pulls and runs it on a DigitalOcean droplet. Keeping Chromium stable in production took some tuning of the shared-memory config, which is the kind of thing you only find out about once four browsers start crashing under load. That tuning is also why the service has held 99%+ uptime since it went live, it's the boring infrastructure work that nobody sees until it's missing.
 
 ## Putting it where they already are
 
-The second app is a Telegram bot. It reads from the same Supabase Postgres database and lets an organizer ask about their events in plain chat: total ticket sales, the breakdown by venue, the numbers show by show. No dashboard to log into, no new tool to learn. They were already on Telegram all day, so the answers come to them there.
+The second app is a Telegram bot. It reads from the same Supabase Postgres database and lets an organizer ask about their events in plain chat: total ticket sales, the breakdown by venue, the numbers show by show. No dashboard to log into, no new tool to learn. They were already on Telegram all day, so the answers come to them there. It's now the daily numbers source for 50+ event organizers across the shows SmallWorld runs.
 
 ![SmallWorld BookMyShow bot in Telegram, returning a sales summary for the day](/projects/smallworld_bms_bot.jpeg)
 

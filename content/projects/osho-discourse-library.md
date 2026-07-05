@@ -48,12 +48,12 @@ No backend. No database. Just files and a player.
 
 What it's grown into since that first midnight version:
 
-- **Transcripts** — full text of each discourse, synced to the audio.
-- **Media Offline** — User can download the media on their device to listen to it when offline.
-- **Transcript-based search** — search inside the actual words spoken, not just titles and tags, and jump straight to that moment in the audio.
-- **Bookmarks with comments** — save a timestamp and write a note on why it mattered, so you can come back to it later.
-- **Reels/shorts** — short clippable moments from discourses for people who want a five minute hit instead of an hour.
-- **Background music** — most of the original recordings are very plain, so there's optional BGM with its own volume control to make long listens easier.
-- **Search bar** — find a discourse by name or topic instead of scrolling through the whole library.
-- **English/Hindi filter** — Osho spoke in both languages, so you can filter the library by language.
-- **Product analytics with PostHog** — granular event tracking to actually understand what people listen to and where they drop off.
+- **Transcripts:** full text of each discourse, synced to the audio.
+- **Media offline:** download the audio to your device and listen without a connection.
+- **Transcript-based search:** search inside the actual words spoken, not just titles and tags, and jump straight to that moment in the audio.
+- **Bookmarks with comments:** save a timestamp and write a note on why it mattered, so you can come back to it later.
+- **Reels/shorts:** short clippable moments from discourses for people who want a five minute hit instead of an hour.
+- **Background music:** most of the original recordings are very plain, so there's optional BGM with its own volume control to make long listens easier.
+- **Search bar:** find a discourse by name or topic instead of scrolling through the whole library.
+- **English/Hindi filter:** Osho spoke in both languages, so you can filter the library by language.
+- **Product analytics with PostHog:** granular event tracking to actually understand what people listen to and where they drop off.

@@ -3,7 +3,7 @@ title: "EasyV - Multiplatform EV SAAS for Fleet Operators"
 date: "2024-03-01"
 description: "Founding engineer on a SaaS platform for EV fleet operations, built mostly on Bubble with Kafka streaming telemetry underneath."
 image: "/projects/easyv-ev-saas.jpg"
-tags: ["Bubble", "IoT", "Google Cloud Functions", "AWS Kafka", "Mixpanel", "Algolia"]
+tags: ["Bubble", "IoT", "Google Cloud Functions", "AWS Kafka", "Mixpanel", "Algolia", "Python", "GPT-4o"]
 ---
 
 ## Why it exists
@@ -23,6 +23,14 @@ I integrated Mixpanel and Algolia myself. Mixpanel went into eight product flows
 The real-time monitoring dashboard was the centerpiece. ML-driven alerting on top of the telemetry stream cut vehicle downtime by 30% and got issue resolution moving 50% faster, because operators stopped finding out about problems after the fact.
 
 I also spent time on a reusable design system inside Bubble, which isn't something people usually associate with no-code tools. It cut our development cycles by 30%, mostly by killing the habit of rebuilding the same component five different ways across the app.
+
+## Bridging fleet data and bank credit
+
+Somewhere in all that telemetry was a problem nobody on the finance side could solve. Banks had no clean way to underwrite EV fleet financing, because the data that actually described a fleet's risk was sitting in our dashboards and never reached them in a form they could use. So I built CredOps, a linear AI pipeline in Python running on GPT-4o. It ingests EV fleet telemetry, the same data feeding the monitoring dashboard, and turns it into a structured creditworthiness report, something a bank's underwriting team can read the way they'd read a CIBIL score.
+
+The pipeline is linear on purpose. Telemetry goes in, GPT-4o scores it against a fixed set of criteria, and a structured report comes out with a score and the numbers behind it. No agent deciding what to check next, no loop, just a fixed path from raw data to a number a loan officer can act on. Banks don't want a black box here, they want a report they can point to.
+
+Before this, EV fleet financing was stuck in a gap. A fleet operator with hundreds of vehicles and years of real usage data had no way to turn any of that into a loan, because there was no equivalent of a personal credit score for a fleet. CredOps gives them one.
 
 ## What I'd say to another developer about it
 
