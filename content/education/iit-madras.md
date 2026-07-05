@@ -1,7 +1,7 @@
 ---
 institution: "IIT Madras"
 degree: "BS in Data Science"
-year: "2023 - 2023 (Dropped Out)"
+year: "2023 - 2024 (Dropped Out)"
 score: "6.5 CGPA"
 description: "Foundational studies in Data Science and Applications."
 ---
