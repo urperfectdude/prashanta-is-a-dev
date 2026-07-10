@@ -10,7 +10,10 @@ export default function ProjectsPage() {
   return (
     <main className="space-y-8 animate-in fade-in duration-500">
       <div className="space-y-2">
-        <h1 className="text-2xl font-bold tracking-tight">Projects</h1>
+        <h1 className="text-2xl font-bold tracking-tight">
+          Projects{" "}
+          <span className="text-muted-foreground font-normal">({projects.length})</span>
+        </h1>
         <p className="text-muted-foreground">
           A collection of things I&apos;ve built and worked on.
         </p>
