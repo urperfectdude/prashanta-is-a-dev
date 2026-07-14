@@ -1,6 +1,6 @@
 ---
 title: "Start Life - Deceased Individuals Directory"
-date: "2023-06-01"
+date: "2024-01-15"
 description: "A Hebrew memorial directory app for an Israeli client, built solo end to end in Bubble.io from a Figma handoff."
 image: "/projects/startlife.jpg"
 tags: ["Bubble.io", "No-Code", "RTL", "Freelance"]

@@ -16,18 +16,52 @@ export const ABOUT = {
 
 
 export const SKILLS = {
-  technical: [
-    "Bubble.io", "Buildship", "Supabase", "Mixpanel", "Figma", "Confluence", "Slack", 
-    "Make/n8n", "Premiere Pro", "Postman", "Looker Studio", "SQL", "Python (NLP)", 
-    "JavaScript", "HTML/CSS", "Google Cloud", "IoT Integration", "Analytics (GA)", 
-    "MS-Office/Workspace"
+  product: [
+    "Roadmapping",
+    "RICE & MoSCoW Prioritization",
+    "User Research",
+    "JTBD Framework",
+    "GTM Strategy",
+    "Stakeholder Management",
+    "Agile/Scrum",
+    "Backlog Grooming",
+    "Cross-functional Collaboration",
   ],
-  nonTechnical: [
-    "Product & UX Design", "Product Strategy", "MVP Development", "Market Analysis", 
-    "Business Intelligence", "Client Management", "Graphic & Video Production", 
-    "Cross-functional Collaboration", "Project Management", "Storytelling", 
-    "Mentoring", "Problem-solving", "EV & Construction Tech", "Startups & Finance"
-  ]
+  analytics: [
+    "Product Metrics",
+    "Funnel Analysis",
+    "A/B Testing",
+    "KPI Dashboards",
+    "Cohort & Retention Analysis",
+    "Mixpanel",
+    "Looker Studio",
+    "PostHog",
+    "Google Analytics",
+  ],
+  design: [
+    "Figma",
+    "Wireframing",
+    "Hi-fi Prototyping",
+    "Design Systems",
+    "Usability Testing",
+    "Iterative Design",
+    "Accessibility",
+    "Interaction Design",
+  ],
+  technical: [
+    "Bubble.io",
+    "Supabase",
+    "REST APIs",
+    "Flutter",
+    "React",
+    "JavaScript",
+    "Python",
+    "LangChain",
+    "LangGraph",
+    "GCP",
+    "SQL",
+    "Make/n8n",
+  ],
 }
 
 export const ACHIEVEMENTS = [

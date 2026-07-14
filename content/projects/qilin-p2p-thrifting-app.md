@@ -1,6 +1,6 @@
 ---
 title: "Qilin - P2P Thrifting App"
-date: "2025-10-01"
+date: "2024-01-01"
 description: "A peer-to-peer thrifting app for Gen Z resellers, taken from zero to 4,000+ users at Enviu."
 image: "/projects/qilin.jpg"
 tags: ["Bubble.io", "Marketplace", "Growth", "Mobile"]

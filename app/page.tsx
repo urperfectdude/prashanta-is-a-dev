@@ -12,6 +12,13 @@ import Link from "next/link"
 import Image from "next/image"
 import { CompanyLink } from "@/components/company-link"
 
+const SKILL_CATEGORIES: { key: keyof typeof SKILLS; label: string }[] = [
+  { key: "product", label: "Product" },
+  { key: "analytics", label: "Analytics" },
+  { key: "design", label: "Design" },
+  { key: "technical", label: "Technical" },
+]
+
 export default function Home() {
   const projects = getAllProjects()
   const workExperience = getAllWorkExperience()
@@ -192,26 +199,18 @@ export default function Home() {
       {/* Skills */}
       <section className="space-y-6">
         <div className="space-y-6">
-          <div className="space-y-3">
-             <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">Technical</h4>
-             <div className="flex flex-wrap gap-2">
-               {SKILLS.technical.map((skill) => (
-                 <Badge key={skill} variant="outline" className="font-normal text-muted-foreground hover:text-foreground transition-colors hover:border-primary/50">
-                   {skill}
-                 </Badge>
-               ))}
-             </div>
-          </div>
-          <div className="space-y-3">
-             <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">Non-Technical</h4>
-             <div className="flex flex-wrap gap-2">
-               {SKILLS.nonTechnical.map((skill) => (
-                 <Badge key={skill} variant="outline" className="font-normal text-muted-foreground hover:text-foreground transition-colors hover:border-primary/50">
-                   {skill}
-                 </Badge>
-               ))}
-             </div>
-          </div>
+          {SKILL_CATEGORIES.map(({ key, label }) => (
+            <div key={key} className="space-y-3">
+               <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">{label}</h4>
+               <div className="flex flex-wrap gap-2">
+                 {SKILLS[key].map((skill) => (
+                   <Badge key={skill} variant="outline" className="font-normal text-muted-foreground hover:text-foreground transition-colors hover:border-primary/50">
+                     {skill}
+                   </Badge>
+                 ))}
+               </div>
+            </div>
+          ))}
         </div>
       </section>
 
