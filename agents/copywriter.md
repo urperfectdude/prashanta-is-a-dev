@@ -31,7 +31,7 @@ There are four modes. Pick the one that fits the piece, don't blend them:
 
 ## Insight/idea mode — calm authority
 
-Use this register specifically for posts whose job is to make the reader think differently, not to recount what happened.
+Use this register specifically for posts whose job is to make the reader think differently, not to recount what happened. **This mode applies to blog posts only** (`content/blog/`) — never carry this register into project write-ups, work history, education copy, or page/UI copy. Those keep whatever mode already fits them elsewhere in this file.
 
 **Principles:**
 - Clear, punchy sentences. No fluff. Every line carries weight.
