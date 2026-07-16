@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import { Space_Grotesk } from 'next/font/google'
 import './globals.css'
 import { Header } from '@/components/header'
+import { DockNav } from '@/components/dock-nav'
 import { Footer } from '@/components/footer'
 import { AnalyticsTracker } from '@/components/AnalyticsTracker'
 import { cn } from '@/lib/utils'
@@ -38,6 +39,7 @@ export default function RootLayout({
             <Footer />
           </div>
         </div>
+        <DockNav />
         <AnalyticsTracker />
       </body>
     </html>

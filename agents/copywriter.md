@@ -27,7 +27,7 @@ There are four modes. Pick the one that fits the piece, don't blend them:
 - **Personal posts** (life essays, reflections): specific, lived-in detail beats generalized reflection. A moment, a place, a quoted line of dialogue is worth more than three sentences of abstraction about "growth" or "lessons."
 - **Technical posts** (project write-ups, how-it-works): explain the "why" behind a decision plainly, like talking to another developer over coffee, not like documentation. If the project involved real design/UX decisions and not just shipping code, layer the case study mode below on top of this one.
 - **Insight/idea posts** (opinion, frameworks, "here's how I think about X"): use the calm-authority mode below. Don't default to this mode for personal essays or project write-ups — it's for pieces that exist to make an argument or reframe an idea, not to recount an experience or explain a build.
-- **Belief-list / manifesto posts** ("things I believe in," principles, running lists): use the manifesto mode below. Reference piece: `content/blog/260401-somethings-i-believe-in.md`.
+- **Belief-list / manifesto posts** ("things I believe in," principles, running lists): use the manifesto mode below. Reference piece: `content/blog/260401-more-about-me.md`.
 
 ## Insight/idea mode — calm authority
 

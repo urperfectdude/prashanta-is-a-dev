@@ -1,7 +1,7 @@
 export const ABOUT = {
   name: "Prashanta Nayak",
   initials: "PN",
-  title: "AI Product Engineer",
+  title: "AI Product Builder",
   description: "tldr; mostly self-taught through internet rabbit holes and shipping tiny experiments. I love technology for the real-world impact, and I use AI plus code to build strange but useful products fast.",
   avatar: "https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg", // Updated avatar path
   contact: {
@@ -72,10 +72,10 @@ export const ACHIEVEMENTS = [
 ]
 
 export const CERTIFICATIONS = [
-  "Jagriti Yatra 2024 – Entrepreneurial India Train Journey (15 Days on Train)",
-  "UI/UX Bootcamp – Bluelearn (Jan–Mar 2024)",
-  "Video Mastery Cohort – Aevy TV (May–Aug 2023)",
-  "IoT Specialization – University of Illinois (Dec 2022–May 2023)",
+  "Jagriti Yatra 2024",
+  "UI/UX Bootcamp – Bluelearn",
+  "Video Mastery Cohort – Aevy TV",
+  "IoT Specialization – University of Illinois",
 ]
 
 export const INTERESTS = [

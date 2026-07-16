@@ -1,11 +1,11 @@
 ---
-title: "My First Couchsurfing Hangout"
+title: "My First & last Couchsurfing Experience"
 date: "2024-12-03"
 description: "A personal reflection on my first Couchsurfing hangout, from ambition and lifestyle conversations to an uncomfortable boundary moment that taught me to trust my instincts."
 tags: ["travel", "journal", "people", "mindset"]
 ---
 
-I created a Couchsurfing account after a friend's suggestion and decided to try the Hangouts feature. I matched with a guy from Gurgaon, and after a short chat he invited me to meet on a Friday night. I assumed we would go out somewhere, but he said we could hang out at his place instead. I agreed, partly because his profile looked genuine and well-traveled.
+I created a Couchsurfing account after a female friend's suggestion and decided to try the Hangouts feature. I matched with a guy from Gurgaon, and after a short chat he invited me to meet on a Friday night. I assumed we would go out somewhere, but he said we could hang out at his place instead. I agreed, partly because his profile looked genuine and well-traveled.
 
 When I reached his location, I was surprised to see a huge villa with multiple floors, luxury interiors, and cars parked outside. He welcomed me politely, introduced me to his mother, and hosted me warmly. We sat in the living room, had snacks, and started talking over drinks.
 

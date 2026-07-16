@@ -1,7 +1,7 @@
 ---
 title: "OneSherpa - AI-Native ERPNext Implementation Platform"
 date: "2026-04-01"
-description: "A freelance build of an AI-native SaaS that lets business owners and consultants implement ERPNext by describing what they need in plain language instead of configuring it by hand."
+description: "A freelance AI-native SaaS that lets business owners and consultants implement ERPNext by describing what they need in plain language. I rebuilt the pipeline as four LangGraph agents running on Claude Haiku, cutting inference cost more than 60%, and designed and built all five core screens myself."
 image: "/projects/onesherpa_overview.jpg"
 tags: ["ERPNext", "LangGraph", "Multi-Agent Systems", "Claude", "Product Design", "Freelance"]
 ---

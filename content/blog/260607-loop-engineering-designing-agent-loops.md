@@ -1,5 +1,5 @@
 ---
-title: "Loop Engineering: Designing Agent Loops Instead of Prompting Them"
+title: "Beyond Vibe Coding - Loop Engineering"
 date: "2026-06-07"
 description: "Coding agents are moving from turn-by-turn prompting to designed loops built from automations, worktrees, skills, connectors, and sub-agents, held together by a state file."
 tags: ["ai", "technology", "product", "mindset"]

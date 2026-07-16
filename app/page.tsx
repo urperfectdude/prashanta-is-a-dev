@@ -1,16 +1,14 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Badge } from "@/components/ui/badge"
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion"
-import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel"
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from "@/components/ui/card"
 import { ABOUT, SKILLS, ACHIEVEMENTS, CERTIFICATIONS } from "@/lib/data"
 import { getAllProjects } from "@/lib/projects"
 import { getAllWorkExperience, calculateDuration } from "@/lib/experience"
 import { getAllEducation } from "@/lib/education"
 import { Mail, Globe, Github, Linkedin, Instagram, ChevronRight } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 import { CompanyLink } from "@/components/company-link"
+import { ProjectCarousel } from "@/components/project-carousel"
 
 const SKILL_CATEGORIES: { key: keyof typeof SKILLS; label: string }[] = [
   { key: "product", label: "Product" },
@@ -25,25 +23,21 @@ export default function Home() {
   const education = getAllEducation()
 
   return (
-    <main className="space-y-16 animate-in fade-in duration-500">
+    <main className="space-y-12 animate-in fade-in duration-500">
       
       {/* Hero Section - Description Only */}
       <section className="space-y-4">
-        <p className="text-muted-foreground text-lg leading-relaxed max-w-2xl">
-          {ABOUT.description}
-        </p>
-        <p className="text-muted-foreground leading-snug max-w-2xl">
-          If you want to know more about me, here are{" "}
-          <Link href="/blog/260401-somethings-i-believe-in" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
-            somethings I believe in
+        <p className="text-muted-foreground text-base leading-relaxed max-w-2xl">
+          {ABOUT.description} Here's{" "}
+          <Link href="/blog/260401-more-about-me" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
+            more about me
           </Link>
-          .
         </p>
       </section>
 
       {/* Work Experience - List */}
-      <section className="space-y-6 -mt-8">
-        <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Work Experience</h3>
+      <section className="space-y-0">
+        <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider border-b pb-2">Work Experience</h3>
         <div className="flex flex-col gap-0">
             {workExperience.map((job, index) => {
                 const isLast = index === workExperience.length - 1
@@ -55,7 +49,7 @@ export default function Home() {
                                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate">
                                     {job.role}
                                 </h4>
-                                <div className="text-sm text-muted-foreground font-normal truncate">
+                                <div className="text-xs text-muted-foreground font-normal truncate">
                                     <span className="mr-1">at</span>
                                     <CompanyLink url={job.url} company={job.company} />
                                 </div>
@@ -81,66 +75,18 @@ export default function Home() {
       {/* Projects - Carousel */}
       <section className="space-y-6">
         <div className="flex items-baseline justify-between border-b pb-2">
-            <h3 className="text-xl font-semibold tracking-tight">Projects</h3>
+            <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider">Projects</h3>
             <Link href="/projects" className="text-sm text-muted-foreground/50 font-normal hover:text-foreground transition-colors">View all</Link>
         </div>
-        <Carousel className="w-full" opts={{ loop: true }}>
-          <CarouselContent>
-            {projects.map((project, index) => (
-              <CarouselItem key={index} className="basis-full">
-                <Link href={`/projects/${project.slug}`}>
-                  <Card className="h-full hover:bg-zinc-800/80 transition-colors cursor-pointer group bg-zinc-900 border-none overflow-hidden relative">
-                    <div className="flex flex-col md:flex-row h-full">
-                       {/* Left Image Section */}
-                       <div className="w-full md:w-48 h-48 md:h-56 bg-muted/20 shrink-0 relative flex items-center justify-center overflow-hidden">
-                          {project.image?.startsWith("/projects/") ? (
-                            <Image
-                              src={project.image}
-                              alt={project.title}
-                              fill
-                              className="object-cover"
-                            />
-                          ) : (
-                            <>
-                              <div className="absolute inset-0 bg-gradient-to-br from-zinc-800 to-zinc-900" />
-                              <span className="relative text-xs text-muted-foreground font-medium">Image</span>
-                            </>
-                          )}
-                       </div>
-                       
-                       {/* Right Content Section */}
-                       <div className="flex flex-col justify-between p-6 w-full">
-                          <div className="space-y-2">
-                             <CardTitle className="group-hover:text-primary transition-colors text-xl">{project.title}</CardTitle>
-                             <CardDescription className="line-clamp-2 text-muted-foreground/80 leading-relaxed">
-                               {project.description}
-                             </CardDescription>
-                          </div>
-                          <div className="flex flex-wrap gap-2 mt-4">
-                            {project.tags.slice(0, 3).map((tag) => (
-                              <Badge key={tag} variant="secondary" className="text-xs font-normal bg-zinc-800 text-zinc-300 hover:bg-zinc-700">
-                                {tag}
-                              </Badge>
-                            ))}
-                          </div>
-                       </div>
-                    </div>
-                  </Card>
-                </Link>
-              </CarouselItem>
-            ))}
-          </CarouselContent>
-          <CarouselPrevious className="left-4 md:-left-12 hover:bg-zinc-800 hover:text-white border-zinc-700 bg-zinc-900/50 backdrop-blur-sm" />
-          <CarouselNext className="right-4 md:-right-12 hover:bg-zinc-800 hover:text-white border-zinc-700 bg-zinc-900/50 backdrop-blur-sm" />
-        </Carousel>
+        <ProjectCarousel projects={projects} />
       </section>
 
 
 
       {/* History (Education & Achievements) */}
-      <section className="space-y-12">
-        <div className="space-y-6">
-           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Education</h3>
+      <section className="space-y-8">
+        <div className="space-y-0">
+           <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider border-b pb-2">Education</h3>
             <div className="flex flex-col gap-0">
                 {education.map((edu, index) => {
                     const isLast = index === education.length - 1
@@ -161,12 +107,6 @@ export default function Home() {
                                      <span className="text-[10px] text-muted-foreground/60 whitespace-nowrap">{edu.score}</span>
                                 </div>
                             </div>
-                            <div className="flex items-center justify-between gap-5">
-                                <p className="text-sm text-muted-foreground line-clamp-2 flex-1">
-                                    {edu.description}
-                                </p>
-                                <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/50 group-hover:text-primary transition-colors group-hover:translate-x-1 duration-200 shrink-0" />
-                            </div>
                         </div>
                     </Link>
                     )
@@ -175,7 +115,7 @@ export default function Home() {
         </div>
 
         <div className="space-y-6">
-           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Achievements</h3>
+           <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider border-b pb-2">Achievements</h3>
            <ul className="space-y-3">
              {ACHIEVEMENTS.map((achievement, index) => (
                <li key={index} className="flex items-start text-muted-foreground">
@@ -187,7 +127,7 @@ export default function Home() {
         </div>
         
         <div className="space-y-6">
-           <h3 className="text-xl font-semibold tracking-tight border-b pb-2">Certifications</h3>
+           <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider border-b pb-2">Certifications</h3>
            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
              {CERTIFICATIONS.map((cert, index) => (
                <li key={index}>{cert}</li>
@@ -195,6 +135,12 @@ export default function Home() {
            </ul>
         </div>
       </section>
+
+      <p className="text-center">
+        <a href={ABOUT.contact.linkedin} target="_blank" rel="noopener noreferrer" className="text-foreground underline underline-offset-2 hover:text-primary transition-colors">
+          connect on linkedin
+        </a>
+      </p>
 
       {/* Skills */}
       <section className="space-y-6">

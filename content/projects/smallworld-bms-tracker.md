@@ -1,7 +1,7 @@
 ---
-title: "SmallWorld: Building an Events Platform, Role by Role"
+title: "SmallWorld: Events Platform and the BookMyShow Sales Tracker"
 date: "2026-06-01"
-description: "A Turborepo monorepo I built solo for SmallWorld: two React and Vite apps running straight against Supabase for booking, staffing, and finance across six user roles, plus the bot that solves BookMyShow's missing API."
+description: "A solo build for SmallWorld: a Turborepo monorepo running the customer and admin web apps, plus a scraper and Telegram bot that tracks 10,000+ events on BookMyShow, a platform with no public API. Sync schedules are tuned to dodge rate limits, keeping 99%+ uptime and making it the daily numbers source for 50+ organizers."
 image: "/projects/smallworld.jpg"
 tags: ["TypeScript", "React", "Vite", "Turborepo", "Supabase", "PostgreSQL", "Row-Level Security", "Playwright", "Telegram Bot"]
 ---

@@ -3,7 +3,7 @@ title: "YECC - Community App for ERP Consultants"
 date: "2024-02-01"
 description: "A hybrid mobile app that gives ERP consultants worldwide one place to network, learn, and find work."
 image: "/projects/yecc-app.jpg"
-tags: ["Hybrid Mobile", "Community", "ERP Consulting", "iOS & Android"]
+tags: ["iOS", "Android", "Figma" ,"Product Design"]
 ---
 
 ## Why it exists

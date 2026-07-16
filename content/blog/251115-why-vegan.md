@@ -1,5 +1,5 @@
 ---
-title: "Why Vegan"
+title: "Why I dont opt for Vegan"
 date: "2025-11-15"
 description: "So today I finally had talk with omkar regarding vegan and my question was why even after having enough resources in terms of money why don't you participate ..."
 tags: ["food", "health", "journal", "people"]
