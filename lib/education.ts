@@ -34,12 +34,8 @@ export function getAllEducation(): Education[] {
     }
   })
 
-  // Sort logic
-  return allEducationData.sort((a, b) => {
-      // IIT (2023) -> Bramhapuri (2023). 
-      // If equal years, maybe sort by institution or just file order.
-      return 0; 
-  })
+  const order = ['gp-bramhapuri', 'uiuc-iot', 'iit-madras']
+  return allEducationData.sort((a, b) => order.indexOf(a.slug) - order.indexOf(b.slug))
 }
 
 export function getEducationData(slug: string): Education | null {

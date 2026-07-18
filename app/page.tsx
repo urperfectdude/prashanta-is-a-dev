@@ -5,7 +5,7 @@ import { ABOUT, SKILLS, ACHIEVEMENTS, CERTIFICATIONS } from "@/lib/data"
 import { getAllProjects } from "@/lib/projects"
 import { getAllWorkExperience, calculateDuration } from "@/lib/experience"
 import { getAllEducation } from "@/lib/education"
-import { Mail, Globe, Github, Linkedin, Instagram, ChevronRight } from "lucide-react"
+import { Mail, Globe, Github, Linkedin, Instagram } from "lucide-react"
 import Link from "next/link"
 import { CompanyLink } from "@/components/company-link"
 import { ProjectCarousel } from "@/components/project-carousel"
@@ -49,7 +49,7 @@ export default function Home() {
                                 <h4 className="font-semibold text-foreground group-hover:text-primary transition-colors truncate">
                                     {job.role}
                                 </h4>
-                                <div className="text-xs text-muted-foreground font-normal truncate">
+                                <div className="text-sm text-muted-foreground font-normal truncate">
                                     <span className="mr-1">at</span>
                                     <CompanyLink url={job.url} company={job.company} />
                                 </div>
@@ -58,12 +58,6 @@ export default function Home() {
                                  <span className="text-xs font-medium text-muted-foreground whitespace-nowrap">{job.period}</span>
                                  <span className="text-[10px] text-muted-foreground/60 whitespace-nowrap">{calculateDuration(job.period)}</span>
                             </div>
-                        </div>
-                        <div className="flex items-center justify-between gap-5">
-                            <p className="text-sm text-muted-foreground line-clamp-2 flex-1">
-                                {job.description}
-                            </p>
-                            <ChevronRight className="w-3.5 h-3.5 text-muted-foreground/50 group-hover:text-primary transition-colors group-hover:translate-x-1 duration-200 shrink-0" />
                         </div>
                     </div>
                 </Link>
@@ -125,7 +119,7 @@ export default function Home() {
              ))}
            </ul>
         </div>
-        
+
         <div className="space-y-6">
            <h3 className="text-sm font-medium text-muted-foreground uppercase tracking-wider border-b pb-2">Certifications</h3>
            <ul className="list-disc list-inside space-y-2 text-muted-foreground">
@@ -146,14 +140,16 @@ export default function Home() {
       <section className="space-y-6">
         <div className="space-y-6">
           {SKILL_CATEGORIES.map(({ key, label }) => (
-            <div key={key} className="space-y-3">
-               <h4 className="font-medium text-sm text-muted-foreground uppercase tracking-wider">{label}</h4>
-               <div className="flex flex-wrap gap-2">
-                 {SKILLS[key].map((skill) => (
-                   <Badge key={skill} variant="outline" className="font-normal text-muted-foreground hover:text-foreground transition-colors hover:border-primary/50">
-                     {skill}
-                   </Badge>
-                 ))}
+            <div key={key} className="group flex items-center gap-4">
+               <h4 className="shrink-0 font-medium text-sm text-muted-foreground uppercase tracking-wider">{label}</h4>
+               <div className="overflow-hidden [mask-image:linear-gradient(to_right,transparent,black_1rem,black_calc(100%-1rem),transparent)]">
+                 <div className="flex w-max gap-2 motion-safe:animate-marquee group-hover:[animation-play-state:paused]">
+                   {[...SKILLS[key], ...SKILLS[key]].map((skill, i) => (
+                     <Badge key={`${skill}-${i}`} variant="outline" className="shrink-0 font-normal text-muted-foreground hover:text-foreground transition-colors hover:border-primary/50">
+                       {skill}
+                     </Badge>
+                   ))}
+                 </div>
                </div>
             </div>
           ))}
