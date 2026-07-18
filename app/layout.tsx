@@ -15,11 +15,33 @@ const spaceGrotesk = Space_Grotesk({
   display: 'swap',
 })
 
+const PROFILE_IMAGE = 'https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg'
+const SITE_TITLE = 'Prashanta Nayak | AI Product Builder'
+const SITE_DESCRIPTION = 'tldr; mostly self-taught through internet rabbit holes and shipping tiny experiments. I love technology for the real-world impact, and I use AI plus code to build strange but useful products fast.'
+
 export const metadata: Metadata = {
-  title: 'Prashanta Nayak',
-  description: 'Product-driven professional with 2+ years of cross-functional experience.',
+  title: SITE_TITLE,
+  description: SITE_DESCRIPTION,
   icons: {
-    icon: 'https://raw.githubusercontent.com/urperfectdude/prashanta-is-a-dev/main/public/badal-ps.jpg',
+    icon: PROFILE_IMAGE,
+  },
+  openGraph: {
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [
+      {
+        url: PROFILE_IMAGE,
+        width: 1000,
+        height: 1000,
+        alt: 'Prashanta Nayak',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: SITE_TITLE,
+    description: SITE_DESCRIPTION,
+    images: [PROFILE_IMAGE],
   },
 }
 
