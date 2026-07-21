@@ -20,6 +20,8 @@ It's built with Tauri, so the desktop shell and file handling are Rust and the i
 
 The splitting itself happens in two steps. Whisper transcribes the video into text first. Then GPT reads that transcript and works out the structure inside it: where a lesson's ideas wrap up, where a new one starts, what reads like an intro or a recap. What comes out of that step is a set of proposed segments, not a final cut.
 
+Whisper caps requests at 25MB, so anything longer than a short clip has to be split into chunks before it goes in. Instead of cutting at a fixed interval, which can slice a sentence in half, the app tracks the audio's background noise level and finds the quiet stretches sitting below that median, then places chunk boundaries there so a cut never lands mid-word. Lesson segments can also overlap once GPT proposes them: a few seconds near a boundary might get claimed by more than one candidate lesson instead of every cut being a clean back-to-back split.
+
 You get the final say. The app shows you the segments GPT proposed before anything gets exported. Move a boundary if it's off. Merge two segments that should have been one. Drop a segment that turned out to be filler. Export only runs on what you've actually approved.
 
 ## The video stays on your machine, on purpose
@@ -30,4 +32,4 @@ That's a smaller, cheaper thing to send over the network, and it means the raw f
 
 ## Where to get it
 
-[github.com/urperfectdude/coursecut](https://github.com/urperfectdude/coursecut)
+[urperfectdude.github.io/coursecut](https://urperfectdude.github.io/coursecut/)
