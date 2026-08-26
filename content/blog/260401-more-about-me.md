@@ -9,9 +9,9 @@ I dropped out of college with no backup plan. What followed was less a plan and 
 
 Design was first. It didn't take. I still had media and video skills from years of editing for fun, so I built a portfolio and posted it on Twitter. That got me real offers, from MotorOctane, Finance with Sharan, and ThinkSchool, channels I used to watch, not pitch to.
 
-Video editing didn't stick either. I tried running a design and media agency for a while, mostly because it felt like the natural next step. Turns out I'm bad at managing people, or at least I was then. So I went the other direction entirely and took an Electrical Engineering role at L&T Construction, the highest package in my college batch, at nineteen.
+Video editing didn't stick either, even though one of the biggest YouTube creators in India offered me a full-time job as a video editor around then. I had the chops, I could cut a genuinely good video, but I'd already gone cold on the process by the time the offer landed, so I turned it down. I tried running a design and media agency for a while too, mostly because it felt like the natural next step. Turns out I'm bad at managing people, or at least I was then. So I went the other direction entirely and took an Electrical Engineering role at L&T Construction, the highest package in my college batch, at nineteen.
 
-I left within a month. I couldn't picture myself doing it long term, and the whole detour left me with one line I still repeat: coding doesn't make money, solutions do. My parents had opinions about all of this, delivered the way parents deliver opinions, as jokes that weren't really jokes.
+I left within a month. Corporate life at nineteen felt like it would kill my curiosity and whatever ambitious thing I actually wanted to do, and I couldn't picture myself doing it long term anyway. The whole detour left me with one line I still repeat: coding doesn't make money, solutions do. My parents had opinions about all of this, delivered the way parents deliver opinions, as jokes that weren't really jokes.
 
 Next I went at hardware. Courses, a portable body cooler, a payment tracker, none of which went anywhere. Then Foodaspas, a social app for foodies, which I worked on for about six months before admitting to myself it was never going to ship for real users. Yeh sab gile sikwe leke mai nikla safar pe.
 
@@ -39,7 +39,9 @@ Chose tech because I have too many real interests to fit into one lane: biology,
 
 - Most procrastination wears a costume: polished decks, fake plans, research tabs, premium UI kits. It's still fear. It's easier to make something look finished than to sit with not understanding it yet.
 
-- Proof of work beats ideas. An idea with no live URL is nothing, and a live URL with no users means ship harder. I've hired for senior roles. A GitHub link with no live demo gets skipped, nobody's cloning your repo to find out if it works.
+- Proof of work beats ideas, and it doesn't have to be pretty first. SpaceX's early rockets were ugly and they flew, the pretty part came later. An idea with no live URL is nothing, and a live URL with no users means ship harder. I've hired for senior roles. A GitHub link with no live demo gets skipped, nobody's cloning your repo to find out if it works.
+
+- Genuine beats rehearsed. Mug up a few lines to impress someone and they'll clock the performance before they're impressed by anything in it.
 
 - I'd rather break in public than polish in a private draft. I don't actually live up to this one. I've got documentary footage sitting in my gallery for months because some part of me is scared of being known for a certain kind of work if I post it unfinished.
 
