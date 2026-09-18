@@ -1,25 +1,16 @@
 ---
 title: "Why and How We Mate"
 date: "2026-02-20"
-description: "Book sex at dawn 1. We are evolution of ape and chempanzees even 99% DNA matches and the line drawn between human and ape is artificial. 2. Lifetime monoga..."
+description: "Book sex at dawn review"
 tags: ["relationships", "food"]
 ---
 
-### Book sex at dawn - review
+Reading Sex at Dawn made me question many things I had always considered “natural” about human relationships and sexuality. One of the biggest ideas that stayed with me is that humans are, biologically, great apes. We share a very close evolutionary relationship with chimpanzees and bonobos, which makes the boundary we draw between humans and other apes feel less absolute.
 
-1. We are evolution of ape and chempanzees even 99% DNA matches and the line drawn between human and ape is artificial.
+The book also challenged my idea of lifelong monogamy. It made me wonder whether monogamy is purely biological or whether society, religion, culture and conditioning have played a much bigger role in shaping it. Humans clearly have strong sexual desires, yet a lot of these desires may remain hidden because of shame, guilt and social expectations.
 
-2. Lifetime monogamy is just brain wash
+I also found the idea of early human life interesting. For most of our existence, humans lived as hunter-gatherers rather than farmers or members of modern civilizations. Survival probably depended heavily on sharing—food, childcare, protection and social connection. The modern ideas of privacy, individualism and the nuclear family may therefore be much more recent than we intuitively imagine.
 
-3. Statistics wise humans crave for sex a lot but which is hidden or indiscollosed by lot of people
+The book’s discussion of early human sexuality and bonobos was particularly thought-provoking. It challenged the simple idea that prehistoric society was always dominated by an “alpha male” controlling access to women. Human relationships may have been much more cooperative and socially interconnected.
 
-4. Humans has 5% agriculture 95% survival
-
-5. Homo erectus - alpha male use to control all womens but after sometime women had option to mate with multiple women.
-
-6. Foreigers were eggletarian and survuved on sharing from food to sex without guilt or shame. Like bono have multi sex partners that made more connected to each other.
-
-7. Lot of theories by darwin were myths like monogamy even he had erectos phobia.
-
-8. Previously sapions were group dependent on each other and there was no concept like privacy at that time, even mothers use to breast each others babies.
-
+My biggest takeaway from the book is that human nature may be much more flexible than the rules and assumptions of modern society make us believe. Evolution may have given us certain tendencies, but culture has played a huge role in deciding how we express them.

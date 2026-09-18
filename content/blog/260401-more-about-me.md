@@ -13,7 +13,7 @@ Design was first. Didn't take. I'd been editing videos for fun for years, so I p
 
 Then one of the biggest YouTube creators in India offered me a full-time editor job. I could cut a good video. I'd also already gone cold on the process, so I said no. I tried running a design and media agency after that, mostly because it looked like the obvious next step. Turns out I was bad at managing people, or at least I was then.
 
-So I swung the other way: an Electrical Engineering role at L&T Construction, highest package in my college batch, at nineteen. I left within a month. Corporate life at nineteen felt like the fastest way to kill whatever curiosity I had, and I couldn't picture doing it long term. My parents had thoughts, delivered as jokes that weren't really jokes.
+So I swung the other way: an Electrical Engineering role at L&T Construction, highest package in my diploma college batch, at nineteen. I left within a month. Corporate life at nineteen felt like the fastest way to kill whatever curiosity I had, and I couldn't picture doing it long term.
 
 Hardware was next. Courses, a portable body cooler, a payment tracker. None of it went anywhere. Then Foodaspas, a social app for foodies, six months of work before I admitted it was never going to ship to real users. Yeh sab gile sikwe leke mai nikla safar pe.
 

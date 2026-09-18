@@ -18,5 +18,3 @@ That's the part I misjudged. Technical output has a ceiling on its own. It prove
 Collaboration isn't a soft skill sitting next to the real skill. It's the delivery mechanism for the real skill. Skip it, and your best work stays exactly where you built it: known to you, and maybe your closest teammates, invisible to everyone who actually signs off on what happens next.
 
 I don't think of talking to people as networking anymore. I think of it as finishing the job. The build isn't done when it ships. It's done when the people who matter actually know it happened.
-
-So the question I ask myself now isn't whether the work is good enough. It's who else knows.

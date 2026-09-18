@@ -1,6 +1,6 @@
 ---
 title: "I Quit Too Early, Every Time"
-date: "2026-08-28"
+date: "2025-08-28"
 description: "My biggest career mistake isn't one decision, it's a pattern: the moment a hard problem slows down, I go find an easier one, and it shows up everywhere from job changes to half-finished builds."
 tags: ["career", "mindset", "journal"]
 ---

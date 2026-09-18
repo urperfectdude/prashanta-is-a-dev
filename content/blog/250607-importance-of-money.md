@@ -1,39 +1,24 @@
 ---
-title: "What Money Changes in Human Behavior"
+title: "How People Treated Us Before and After Kuwait"
 date: "2025-06-07"
-description: "A personal reflection on how my family's social treatment changed before and after financial stability, and what that taught me about dignity and money."
+description: "My father went from no job and village politics to a salary in Kuwait. The relatives who taunted us before were polite after. My mother saw both versions up close."
 tags: ["career", "journal", "people", "mindset", "finance"]
 ---
 
-My parents, especially my mother, have seen the clearest version of how people behave differently when you have money and when you do not.
+If you want to know how differently people treat you with and without money, ask my mother. She saw both versions of the same people, and she saw them from closer than anyone.
 
-I grew up watching this change from very close distance.
+For a while my father had no job. He was involved in village politics, which kept him busy and brought nothing home. Money was always short, and at home that showed up as fights over small things. The kind of fights that wouldn't have happened if there had been enough.
 
-There was a phase when my father was unemployed, involved in local politics, and financially unstable. Daily life in that period was messy. Stress at home kept increasing, social pressure kept building, and even small issues turned into arguments. When money disappears, peace also starts disappearing from the house.
+Relatives who used to act close started talking down to us. <!-- TODO: one specific taunt you remember, and who said it --> Even people who had taken help from us earlier behaved differently once things turned. It was hard to watch how fast that happened.
 
-During that time, many relatives who once acted close became judgmental. Taunts became normal. Respect became conditional. People who had taken help earlier also changed their behavior when circumstances shifted. It was painful to watch how quickly social value drops when financial strength drops.
+Then an elder in the family confronted my father. Not a hint, a direct conversation about taking responsibility. <!-- TODO: what the elder said to him, even roughly -->
 
-Then a major turning point came. One elder in the family confronted my father very directly and pushed him to take responsibility seriously. He left village politics, took high-interest loans from friends, moved to Mumbai, prepared for opportunities abroad, and eventually cleared interviews based on skill. That process was difficult, uncertain, and risky, but it changed the trajectory of our family.
+My father left village politics. He borrowed from friends, at high interest, and moved to Mumbai to prepare for jobs abroad. None of it was safe. If the jobs hadn't come, the loans would still have been there.
 
-After he started earning decently in Kuwait, everything around us began to change. The same people who had dismissed us started speaking politely. Relatives who had insulted us now behaved with softness. The outside world suddenly started treating us as if we had become "important."
+He cleared the interviews on skill and got a job in Kuwait.
 
-That contrast gave me a hard but useful lesson.
+Once he was earning decently, the same relatives changed their tone. The ones who had taunted us started speaking politely, some of them almost gently. <!-- TODO: the first time you noticed the change, e.g. a visit or a phone call --> We were the same family. The only new thing was a salary coming in from Kuwait.
 
-Money does not automatically make someone a better human, but it changes how society responds to you. It buys stability, options, and dignity in situations where emotions alone are not enough.
+Money didn't make my father a better person. It changed how everyone around us behaved.
 
-For me, the takeaway is practical, not greedy.
-
-Money matters because:
-
-- it protects family peace
-- it reduces dependency-driven humiliation
-- it gives room for better decisions
-- it keeps your self-respect intact in difficult phases
-
-So when I work for financial growth now, I do not see it as luxury chasing. I see it as responsibility.
-
-I have seen what life looks like when there is no money.
-I have also seen how quickly respect follows financial stability.
-
-That is why for me, earning is not only ambition.
-It is protection.
+When I work for money now, it isn't for luxury. I've seen what our house was like without enough of it, and how much of people's respect depended on it.
