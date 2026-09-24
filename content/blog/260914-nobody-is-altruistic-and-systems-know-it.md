@@ -27,7 +27,7 @@ The democratic leader is not a better person than the dictator. Put the dictator
 
 Behaviour comes from the structure much more than from character. Who holds a stake in the outcome, and how many of them there are, decides what a rational leader does.
 
-This doesn't mean character is irrelevant. It means character is a weak thing to build a system on, because you can't count on it being there.
+Character still matters, but it's a weak thing to build a system on, because you can't count on it being there.
 
 ## You can't build on goodwill
 
@@ -43,7 +43,7 @@ I noticed this in a small way a while ago. A company I was following was running
 
 My first reaction was confusion. Why pay people to show up to something good? Of course people would support it.
 
-But that reaction said more about me than about the event. The company understood something I didn't: most people won't show up for free, however good the cause is. The gift wasn't a bribe. It was realistic design.
+But that reaction said more about me than about the event. The company understood something I didn't: most people won't show up for free, however good the cause is. The gift was realistic design.
 
 ## Don't design for yourself
 
@@ -59,6 +59,6 @@ I recognised myself in that. People who care about the bigger picture tend to as
 
 Stop asking whether the people in charge are good. Ask who they depend on, and what those people want.
 
-When a leader, a manager or a company does something that looks selfish or strange, it usually isn't a mystery. It's a reasonable response to the people they answer to.
+When a leader, a manager or a company does something that looks selfish or strange, it's usually a reasonable response to the people they answer to.
 
-The useful question is not how to find better people. It's how to build something where ordinary, self-interested people end up doing the right thing anyway.
+The useful question is how to build something where ordinary, self-interested people end up doing the right thing anyway.

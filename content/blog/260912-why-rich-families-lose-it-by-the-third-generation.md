@@ -19,7 +19,7 @@ The first generation builds. They usually start with little, take risks, work ab
 
 The second generation grew up watching that. They may not have built it, but they saw how hard it was. They tend to protect it.
 
-The third generation grew up inside the wealth. The money was always there. The discipline that created it is a family story, not something they lived through. That's usually where it starts to go.
+The third generation grew up inside the wealth. The money was always there. The discipline that created it survives as a family story. That's usually where it starts to go.
 
 It isn't a law. There are families that break the pattern for a long time, and India has a few business houses that are well past their third generation and still huge. But they are the exceptions people remember, not the rule.
 
@@ -29,7 +29,7 @@ Even without anyone wasting a rupee, inheritance splits the money.
 
 Say a founder has two children. Each gets half. If each of them has two children, those four get a quarter each. By the fourth generation, one fortune has become eight or sixteen smaller ones, held by cousins who may barely know each other and don't share goals.
 
-John D. Rockefeller was the richest man in America in his time. His descendants today number in the hundreds. As a family, they are still wealthy. But no single Rockefeller today holds anything close to what he did. The fortune didn't vanish. It thinned out until it stopped being one thing.
+John D. Rockefeller was the richest man in America in his time. His descendants today number in the hundreds. As a family, they are still wealthy. But no single Rockefeller today holds anything close to what he did. The fortune thinned out until it stopped being one thing.
 
 ## Windfalls go faster
 
@@ -57,6 +57,6 @@ This is a thought experiment, not data, and it hides a lot. Real inequality also
 
 I don't come from wealth, so the three generations problem isn't mine directly. But the lesson under it applies at any income.
 
-Money is not a stock you have. It's a flow you manage. A salary, a bonus, a big contract, an inheritance: none of it stays unless there is a habit keeping it there.
+Money is a flow you manage. A salary, a bonus, a big contract, an inheritance: none of it stays unless there is a habit keeping it there.
 
-The first generation's real asset was never the money. It was knowing what the money cost. If that knowledge doesn't get passed down, the money won't stay either.
+The first generation's real asset was knowing what the money cost. If that knowledge doesn't get passed down, the money won't stay either.

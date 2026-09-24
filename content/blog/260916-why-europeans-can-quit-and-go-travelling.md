@@ -13,7 +13,7 @@ My first reaction was not "wow, that's nice." My first reaction was, doesn't she
 
 Because that is how I have been trained to think about money and work. If you leave your job, the savings start going down from the first month. There is a gap on the resume that some interviewer will ask about later. What if the next job takes six months to find? What if it takes a year? And what if you fall sick in between, when there is no company insurance anymore and the hospital bill comes straight out of your own account?
 
-For most Indian middle class families, quitting a job without another one lined up is not a lifestyle choice. It's a risk you take only when something has really gone wrong. And quitting just to travel would sound slightly irresponsible to most parents I know.
+For most Indian middle class families, quitting a job without another one lined up is a risk you take only when something has really gone wrong. And quitting just to travel would sound slightly irresponsible to most parents I know.
 
 So I kept thinking, how is she so relaxed about this?
 
@@ -23,7 +23,7 @@ In Germany, if you have been paying into unemployment insurance for long enough,
 
 It isn't a free holiday though. If you quit voluntarily, you usually get a blocking period of up to 12 weeks where no benefit is paid, and the total benefit period also gets shorter. So she still needs some savings. But needing three months of savings is a very different problem from needing to survive with no floor at all for as long as the job search takes.
 
-You could see that in how they travelled too. She and other travellers like her made their own breakfast: oats with hot water, vegan protein powder and some fruits. The fruits at least made it tastier. It didn't look like a luxury holiday. It looked like people making their money last.
+You could see that in how they travelled too. She and other travellers like her made their own breakfast: oats with hot water, vegan protein powder and some fruits. The fruits at least made it tastier. It looked like people making their money last.
 
 Not everything was about money though. She told me she would be going from Bangalore to Pune in a non-AC sleeper train. I was honestly shocked. To me that sounded crazy.
 
@@ -47,7 +47,7 @@ She also told me that an ex-boyfriend used to tease her that she could never cli
 
 But I think I understood something about why her attitude felt so strange to me.
 
-It's not that she is braver than us or that we are more responsible than her. The risk is actually different. When the system catches you if you fall, taking a break is a reasonable decision. When nothing catches you, the same decision looks reckless, and you end up building your whole life around never falling.
+The risk she was taking is simply a different risk from the one I was imagining. When the system catches you if you fall, taking a break is a reasonable decision. When nothing catches you, the same decision looks reckless, and you end up building your whole life around never falling.
 
 A lot of what we call being practical in India is really just being careful because we have to be.
 

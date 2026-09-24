@@ -54,7 +54,7 @@ Now the pieces fit. American companies needed more engineering work. India had t
 
 Once foreign money started flowing in, the government couldn't treat the software industry as a side project. It was bringing in foreign exchange and taxes, and paying salaries that created a new middle class.
 
-So the rules loosened a little more, then more after that. Not because anyone had a sudden belief in the industry. Because it was paying the bills.
+So the rules loosened a little more, then more after that, because the industry was paying the bills.
 
 ## A chain, not a plan
 

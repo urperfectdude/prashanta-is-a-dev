@@ -15,8 +15,8 @@ The work itself wasn't bad. The orchestration logic worked, and the reasoning be
 
 That's a different failure than writing bad code. Bad code you catch in review. This kind you only catch after you've already spent the time, because the system runs fine right up until someone hands you the fifteen-minute alternative.
 
-It also wasn't the first time. Foodaspas, six months of my life at nineteen, ran into the same wall: not bad execution, a problem that was never validated in the first place.
+It also wasn't the first time. Foodaspas, six months of my life at nineteen, ran into the same wall. The execution was fine. The problem was never validated in the first place.
 
 Working hard is not evidence you're solving the right problem. It's evidence you're working hard. The two get confused constantly, because effort feels like progress while you're inside it, and only looks like a detour once someone hands you the alternative that took them fifteen minutes.
 
-The question worth asking before the build isn't whether you can build it. It's whether someone already has, and whether you're about to spend weeks proving that.
+The question worth asking before the build is whether someone already has, and whether you're about to spend weeks proving that.

@@ -31,13 +31,13 @@ The landlord in the next village knows the same thing. So they don't need a writ
 
 That's a stable system. Nobody in power has any reason to change it.
 
-In India, caste made it worse, because it made the arrangement hereditary. It wasn't just that a family worked someone's field. Their children would, and their children's children. It was also about more than money. You didn't look the landlord in the eye. You stepped off the road when he passed. If you didn't, your family could lose its only source of work, and there was no other landlord who would hire you.
+In India, caste made it worse, because it made the arrangement hereditary. A family worked someone's field, and so would their children, and their children's children. It went beyond money too. You didn't look the landlord in the eye. You stepped off the road when he passed. If you didn't, your family could lose its only source of work, and there was no other landlord who would hire you.
 
 The Black Death broke Europe's equilibrium by removing workers. India had no such shock. So the equilibrium held.
 
 ## The shock that did come
 
-What finally cracked it wasn't a plague. It was trains, cities and eventually a phone in every pocket.
+What finally cracked it was trains, cities and eventually a phone in every pocket.
 
 A young man from that village can now move to a city, earn there and send money home. The landlord hasn't changed. His power has. The dependency that held the whole system together is gone, and there's nobody he can complain to about it.
 
@@ -49,7 +49,7 @@ It's easy to say cities are bad for poor migrants. The wages are low, the housin
 
 All true. But people are not stupid about their own lives. If villages offered a better deal, the flow would run the other way. It doesn't. People move toward less friction, and for a lot of families, a hard city job with no master still has less friction than a village where one family decides whether you eat.
 
-The city isn't good. It's just the first place where someone else might bid for your work.
+The city is just the first place where someone else might bid for your work.
 
 ## The same rule, at national scale
 
@@ -59,7 +59,7 @@ Local companies had protected markets, so they had little reason to get better. 
 
 The shock came in 1991. India's foreign reserves dropped to roughly three weeks of imports. The government pledged its gold, flew tonnes of it to London as collateral, and borrowed. The crisis forced the reforms that opened the economy. Competition came in, and so did the jobs and salaries that a lot of people my age grew up assuming were normal.
 
-Nobody opened the economy because they suddenly believed in it. They opened it because they ran out of options.
+They opened the economy because they had run out of options.
 
 ## What I take from this
 
@@ -67,4 +67,4 @@ Stable systems rarely reform themselves. The people who benefit from them are th
 
 Change usually shows up as a shock, and it only helps ordinary people when it gives them somewhere else to go.
 
-So when I look at any job market, including my own, I don't ask whether employers are fair. I ask a smaller question: who else would hire me tomorrow, and do they know that?
+So when I look at any job market, including my own, I ask one small question: who else would hire me tomorrow, and do they know that?

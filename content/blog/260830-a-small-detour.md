@@ -97,6 +97,6 @@ I lost some discipline, wasted some time, got emotionally involved, discovered t
 
 Maybe that itself was worth learning.
 
-The goal now is not to stop caring about people.
+I still want to care about people.
 
-It is just to make sure that while being around them, I don't forget myself.
+I just need to make sure that while being around them, I don't forget myself.
