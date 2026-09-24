@@ -75,19 +75,19 @@ export function AnalyticsTracker() {
       }
 
       const message = `
-*🚀 New Site Visit!*
+🚀 New Site Visit!
 
-📅 *Time:* ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
-📍 *Path:* \`${data.path}\`
-🔗 *URL:* ${data.url}
-🖥️ *Screen:* ${data.screenSize}
-🌍 *Language:* ${data.language}
-🔗 *Referrer:* ${data.referrer || 'Direct'}
-🕒 *Visitor Timezone:* ${data.timezone}
-🌐 *IP:* \`${data.ip || 'Unknown'}\`
-📍 *Location:* ${data.city || 'Unknown'}, ${data.region || ''}, ${data.country || ''}
-🏢 *ISP:* ${data.isp || 'Unknown'}
-🤖 *User Agent:* \`${data.userAgent}\`
+📅 Time: ${new Date().toLocaleString('en-IN', { timeZone: 'Asia/Kolkata' })}
+📍 Path: ${data.path}
+🔗 URL: ${data.url}
+🖥️ Screen: ${data.screenSize}
+🌍 Language: ${data.language}
+🔗 Referrer: ${data.referrer || 'Direct'}
+🕒 Visitor Timezone: ${data.timezone}
+🌐 IP: ${data.ip || 'Unknown'}
+📍 Location: ${data.city || 'Unknown'}, ${data.region || ''}, ${data.country || ''}
+🏢 ISP: ${data.isp || 'Unknown'}
+🤖 User Agent: ${data.userAgent}
       `.trim();
 
       try {
@@ -101,7 +101,6 @@ export function AnalyticsTracker() {
           body: JSON.stringify({
             chat_id: TELEGRAM_CHAT_ID,
             text: message,
-            parse_mode: 'Markdown',
           }),
         });
 
