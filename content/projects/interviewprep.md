@@ -1,5 +1,5 @@
 ---
-title: "InterviewPrep (In Progress)"
+title: "InterviewPrep"
 date: "2026-09-15"
 description: "A web app for practicing job interviews out loud: give it your resume and the job you want, talk through a live voice interview with an AI interviewer, then get feedback that quotes your own answers."
 image: "/projects/interviewprep.png"
